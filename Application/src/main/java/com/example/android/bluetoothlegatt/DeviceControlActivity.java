@@ -108,7 +108,25 @@ public class DeviceControlActivity extends Activity {
                 // Show all the supported services and characteristics on the user interface.
                 displayGattServices(mBluetoothLeService.getSupportedGattServices());
             } else if (BluetoothLeService.ACTION_DATA_AVAILABLE.equals(action)) {
-                displayData(intent.getStringExtra(BluetoothLeService.EXTRA_DATA));
+                //displayData(intent.getStringExtra(BluetoothLeService.EXTRA_DATA));
+//                Log.d("Data Tag", intent.getStringExtra(BluetoothLeService.EXTRA_DATA_BATTERY_STATUS));
+
+                if (intent.getStringExtra(BluetoothLeService.EXTRA_DATA_BATTERY_STATUS) != null) {
+                    displayData(intent.getStringExtra(BluetoothLeService.EXTRA_DATA_BATTERY_STATUS));
+                    Log.d("Data Tag", intent.getStringExtra(BluetoothLeService.EXTRA_DATA_BATTERY_STATUS));
+                }
+                if (intent.getStringExtra(BluetoothLeService.EXTRA_DATA_SYSTOLIC_PROGRESS) != null) {
+                    displayData(intent.getStringExtra(BluetoothLeService.EXTRA_DATA_SYSTOLIC_PROGRESS));
+                    Log.d("Data Tag", intent.getStringExtra(BluetoothLeService.EXTRA_DATA_SYSTOLIC_PROGRESS));
+                }
+                if (intent.getIntExtra(BluetoothLeService.EXTRA_DATA_BP_SYSTOLIC, 0) != 0 && intent.getIntExtra(BluetoothLeService.EXTRA_DATA_BP_DIASTOLIC, 0) != 0 && intent.getIntExtra(BluetoothLeService.EXTRA_DATA_BP_HEART_RATE, 0) != 0) {
+                    displayData(intent.getStringExtra(BluetoothLeService.EXTRA_DATA_BP_SYSTOLIC));
+                    Log.d("Data Tag", intent.getStringExtra(BluetoothLeService.EXTRA_DATA_BP_SYSTOLIC));
+                }
+                if (intent.getStringExtra(BluetoothLeService.EXTRA_DATA_ERROR) != null) {
+                    displayData(intent.getStringExtra(BluetoothLeService.EXTRA_DATA_ERROR));
+                    Log.d("Data Tag", intent.getStringExtra(BluetoothLeService.EXTRA_DATA_ERROR));
+                }
             }
         }
     };

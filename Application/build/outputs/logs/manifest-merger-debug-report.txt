@@ -1,0 +1,127 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/ankurshukla/Documents/android-BluetoothLeGatt/Application/src/main/AndroidManifest.xml:20:1-52:12
+	package
+		ADDED from /Users/ankurshukla/Documents/android-BluetoothLeGatt/Application/src/main/AndroidManifest.xml:21:5-50
+	android:versionName
+		ADDED from /Users/ankurshukla/Documents/android-BluetoothLeGatt/Application/src/main/AndroidManifest.xml:23:5-30
+		INJECTED from /Users/ankurshukla/Documents/android-BluetoothLeGatt/Application/src/main/AndroidManifest.xml
+		INJECTED from /Users/ankurshukla/Documents/android-BluetoothLeGatt/Application/src/main/AndroidManifest.xml
+	android:versionCode
+		ADDED from /Users/ankurshukla/Documents/android-BluetoothLeGatt/Application/src/main/AndroidManifest.xml:22:5-28
+		INJECTED from /Users/ankurshukla/Documents/android-BluetoothLeGatt/Application/src/main/AndroidManifest.xml
+		INJECTED from /Users/ankurshukla/Documents/android-BluetoothLeGatt/Application/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/ankurshukla/Documents/android-BluetoothLeGatt/Application/src/main/AndroidManifest.xml:20:11-69
+uses-feature#android.hardware.bluetooth_le
+ADDED from /Users/ankurshukla/Documents/android-BluetoothLeGatt/Application/src/main/AndroidManifest.xml:31:5-89
+	android:required
+		ADDED from /Users/ankurshukla/Documents/android-BluetoothLeGatt/Application/src/main/AndroidManifest.xml:31:64-87
+	android:name
+		ADDED from /Users/ankurshukla/Documents/android-BluetoothLeGatt/Application/src/main/AndroidManifest.xml:31:19-63
+uses-permission#android.permission.BLUETOOTH
+ADDED from /Users/ankurshukla/Documents/android-BluetoothLeGatt/Application/src/main/AndroidManifest.xml:33:5-67
+	android:name
+		ADDED from /Users/ankurshukla/Documents/android-BluetoothLeGatt/Application/src/main/AndroidManifest.xml:33:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from /Users/ankurshukla/Documents/android-BluetoothLeGatt/Application/src/main/AndroidManifest.xml:34:5-73
+	android:name
+		ADDED from /Users/ankurshukla/Documents/android-BluetoothLeGatt/Application/src/main/AndroidManifest.xml:34:22-71
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/ankurshukla/Documents/android-BluetoothLeGatt/Application/src/main/AndroidManifest.xml:35:5-80
+	android:name
+		ADDED from /Users/ankurshukla/Documents/android-BluetoothLeGatt/Application/src/main/AndroidManifest.xml:35:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/ankurshukla/Documents/android-BluetoothLeGatt/Application/src/main/AndroidManifest.xml:36:5-78
+	android:name
+		ADDED from /Users/ankurshukla/Documents/android-BluetoothLeGatt/Application/src/main/AndroidManifest.xml:36:22-76
+application
+ADDED from /Users/ankurshukla/Documents/android-BluetoothLeGatt/Application/src/main/AndroidManifest.xml:38:5-50:19
+MERGED from [com.android.support:support-v13:26.1.0] /Users/ankurshukla/.android/build-cache/f6924397bba2fa898c52298d7d49c144ff61fedf/output/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:cardview-v7:26.1.0] /Users/ankurshukla/.android/build-cache/30ef3af9a7f30506aa6e04266aecbf9892303cec/output/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/ankurshukla/.android/build-cache/4c94316f2b013449998d020fa4e2ae7d3bb299f5/output/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] /Users/ankurshukla/.android/build-cache/39c415c567e8f9f07915c052dfbdba5d1e3bb3c9/output/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/ankurshukla/.android/build-cache/650137c6c50fd62ec03513e03e26a37c53de681c/output/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/ankurshukla/.android/build-cache/d261c816110e0af10c1ae9dc13186fb8c0bad6cf/output/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/ankurshukla/.android/build-cache/17d8cf8cc92a06e94c350a71c4e738c259ef0da8/output/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/ankurshukla/.android/build-cache/819af85544215e665e14c090742010e822e1b458/output/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/ankurshukla/.android/build-cache/ba1dd99ede4737a6f7ba75d1b169d8a878bd749e/output/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/ankurshukla/.android/build-cache/ef48504b86784ac7249ac3897b3decf6c9c3e960/output/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] /Users/ankurshukla/.android/build-cache/c759e2582ef70a2a85516f4923290d700e215989/output/AndroidManifest.xml:25:5-29:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/ankurshukla/.android/build-cache/6634f6acfdfe4fb53aaa229e40e86169472d429b/output/AndroidManifest.xml:24:5-28:19
+	android:label
+		ADDED from /Users/ankurshukla/Documents/android-BluetoothLeGatt/Application/src/main/AndroidManifest.xml:38:18-50
+	android:icon
+		ADDED from /Users/ankurshukla/Documents/android-BluetoothLeGatt/Application/src/main/AndroidManifest.xml:39:9-45
+	android:theme
+		ADDED from /Users/ankurshukla/Documents/android-BluetoothLeGatt/Application/src/main/AndroidManifest.xml:40:9-56
+activity#com.example.android.bluetoothlegatt.DeviceScanActivity
+ADDED from /Users/ankurshukla/Documents/android-BluetoothLeGatt/Application/src/main/AndroidManifest.xml:41:9-47:20
+	android:label
+		ADDED from /Users/ankurshukla/Documents/android-BluetoothLeGatt/Application/src/main/AndroidManifest.xml:42:13-45
+	android:name
+		ADDED from /Users/ankurshukla/Documents/android-BluetoothLeGatt/Application/src/main/AndroidManifest.xml:41:19-53
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/ankurshukla/Documents/android-BluetoothLeGatt/Application/src/main/AndroidManifest.xml:43:13-46:29
+action#android.intent.action.MAIN
+ADDED from /Users/ankurshukla/Documents/android-BluetoothLeGatt/Application/src/main/AndroidManifest.xml:44:17-68
+	android:name
+		ADDED from /Users/ankurshukla/Documents/android-BluetoothLeGatt/Application/src/main/AndroidManifest.xml:44:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/ankurshukla/Documents/android-BluetoothLeGatt/Application/src/main/AndroidManifest.xml:45:17-76
+	android:name
+		ADDED from /Users/ankurshukla/Documents/android-BluetoothLeGatt/Application/src/main/AndroidManifest.xml:45:27-74
+activity#com.example.android.bluetoothlegatt.DeviceControlActivity
+ADDED from /Users/ankurshukla/Documents/android-BluetoothLeGatt/Application/src/main/AndroidManifest.xml:48:9-58
+	android:name
+		ADDED from /Users/ankurshukla/Documents/android-BluetoothLeGatt/Application/src/main/AndroidManifest.xml:48:19-56
+service#com.example.android.bluetoothlegatt.BluetoothLeService
+ADDED from /Users/ankurshukla/Documents/android-BluetoothLeGatt/Application/src/main/AndroidManifest.xml:49:9-77
+	android:enabled
+		ADDED from /Users/ankurshukla/Documents/android-BluetoothLeGatt/Application/src/main/AndroidManifest.xml:49:53-75
+	android:name
+		ADDED from /Users/ankurshukla/Documents/android-BluetoothLeGatt/Application/src/main/AndroidManifest.xml:49:18-52
+uses-sdk
+INJECTED from /Users/ankurshukla/Documents/android-BluetoothLeGatt/Application/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:support-v13:26.1.0] /Users/ankurshukla/.android/build-cache/f6924397bba2fa898c52298d7d49c144ff61fedf/output/AndroidManifest.xml:21:5-23:55
+MERGED from [com.android.support:cardview-v7:26.1.0] /Users/ankurshukla/.android/build-cache/30ef3af9a7f30506aa6e04266aecbf9892303cec/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/ankurshukla/.android/build-cache/4c94316f2b013449998d020fa4e2ae7d3bb299f5/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:26.1.0] /Users/ankurshukla/.android/build-cache/39c415c567e8f9f07915c052dfbdba5d1e3bb3c9/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/ankurshukla/.android/build-cache/650137c6c50fd62ec03513e03e26a37c53de681c/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/ankurshukla/.android/build-cache/d261c816110e0af10c1ae9dc13186fb8c0bad6cf/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/ankurshukla/.android/build-cache/17d8cf8cc92a06e94c350a71c4e738c259ef0da8/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/ankurshukla/.android/build-cache/819af85544215e665e14c090742010e822e1b458/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/ankurshukla/.android/build-cache/ba1dd99ede4737a6f7ba75d1b169d8a878bd749e/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/ankurshukla/.android/build-cache/ef48504b86784ac7249ac3897b3decf6c9c3e960/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] /Users/ankurshukla/.android/build-cache/c759e2582ef70a2a85516f4923290d700e215989/output/AndroidManifest.xml:21:5-23:58
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/ankurshukla/.android/build-cache/6634f6acfdfe4fb53aaa229e40e86169472d429b/output/AndroidManifest.xml:20:5-22:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:support-v13:26.1.0] /Users/ankurshukla/.android/build-cache/f6924397bba2fa898c52298d7d49c144ff61fedf/output/AndroidManifest.xml:23:9-52
+	android:targetSdkVersion
+		INJECTED from /Users/ankurshukla/Documents/android-BluetoothLeGatt/Application/src/main/AndroidManifest.xml
+		INJECTED from /Users/ankurshukla/Documents/android-BluetoothLeGatt/Application/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/ankurshukla/Documents/android-BluetoothLeGatt/Application/src/main/AndroidManifest.xml
+		INJECTED from /Users/ankurshukla/Documents/android-BluetoothLeGatt/Application/src/main/AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:support-v13:26.1.0] /Users/ankurshukla/.android/build-cache/f6924397bba2fa898c52298d7d49c144ff61fedf/output/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:cardview-v7:26.1.0] /Users/ankurshukla/.android/build-cache/30ef3af9a7f30506aa6e04266aecbf9892303cec/output/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/ankurshukla/.android/build-cache/4c94316f2b013449998d020fa4e2ae7d3bb299f5/output/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.1.0] /Users/ankurshukla/.android/build-cache/39c415c567e8f9f07915c052dfbdba5d1e3bb3c9/output/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/ankurshukla/.android/build-cache/650137c6c50fd62ec03513e03e26a37c53de681c/output/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/ankurshukla/.android/build-cache/d261c816110e0af10c1ae9dc13186fb8c0bad6cf/output/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/ankurshukla/.android/build-cache/17d8cf8cc92a06e94c350a71c4e738c259ef0da8/output/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/ankurshukla/.android/build-cache/819af85544215e665e14c090742010e822e1b458/output/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/ankurshukla/.android/build-cache/ba1dd99ede4737a6f7ba75d1b169d8a878bd749e/output/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/ankurshukla/.android/build-cache/ef48504b86784ac7249ac3897b3decf6c9c3e960/output/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] /Users/ankurshukla/.android/build-cache/c759e2582ef70a2a85516f4923290d700e215989/output/AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:support-v13:26.1.0] /Users/ankurshukla/.android/build-cache/f6924397bba2fa898c52298d7d49c144ff61fedf/output/AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:support-v13:26.1.0] /Users/ankurshukla/.android/build-cache/f6924397bba2fa898c52298d7d49c144ff61fedf/output/AndroidManifest.xml:27:13-51
+meta-data#android.arch.lifecycle.VERSION
+ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/ankurshukla/.android/build-cache/6634f6acfdfe4fb53aaa229e40e86169472d429b/output/AndroidManifest.xml:25:9-27:47
+	android:value
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/ankurshukla/.android/build-cache/6634f6acfdfe4fb53aaa229e40e86169472d429b/output/AndroidManifest.xml:27:13-44
+	android:name
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/ankurshukla/.android/build-cache/6634f6acfdfe4fb53aaa229e40e86169472d429b/output/AndroidManifest.xml:26:13-58

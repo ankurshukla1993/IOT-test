@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/ankurshukla/Documents/android-BluetoothLeGatt/Application/build/intermediates/res/merged/debug/menu/main.xml",
+        "source": "/Users/ankurshukla/Documents/android-BluetoothLeGatt/Application/src/main/res/menu/main.xml"
+    },
+    {
+        "merged": "/Users/ankurshukla/Documents/android-BluetoothLeGatt/Application/build/intermediates/res/merged/debug/menu/gatt_services.xml",
+        "source": "/Users/ankurshukla/Documents/android-BluetoothLeGatt/Application/src/main/res/menu/gatt_services.xml"
+    }
+]
