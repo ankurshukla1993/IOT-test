@@ -6,7 +6,7 @@
     density="xxhdpi"
     format="10"
     plugin-version="2.3.3"
-    timestamp="1514011184136"
+    timestamp="1514146398103"
     token="5156344337894709797"
     verifier="COLD_SWAP_REQUESTED" >
 
@@ -25,7 +25,7 @@
 
     <build
         build-mode="FULL"
-        timestamp="1514003813906"
+        timestamp="1514142283457"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/Users/ankurshukla/Documents/android-BluetoothLeGatt/Application/build/intermediates/split-apk/debug/dep/dependencies.apk"
@@ -66,7 +66,7 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1514010584148"
+        timestamp="1514146318879"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/Users/ankurshukla/Documents/android-BluetoothLeGatt/Application/build/intermediates/split-apk/debug/slices/slice_1.apk"
@@ -77,7 +77,7 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1514011184136"
+        timestamp="1514146398103"
         verifier="COLD_SWAP_REQUESTED" />
 
 </instant-run>

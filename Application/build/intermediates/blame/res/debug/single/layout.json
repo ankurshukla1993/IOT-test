@@ -12,6 +12,14 @@
         "source": "/Users/ankurshukla/.android/build-cache/c759e2582ef70a2a85516f4923290d700e215989/output/res/layout/notification_action_tombstone.xml"
     },
     {
+        "merged": "/Users/ankurshukla/Documents/android-BluetoothLeGatt/Application/build/intermediates/res/merged/debug/layout/design_navigation_item_header.xml",
+        "source": "/Users/ankurshukla/.android/build-cache/3090b8716b7c05aceacb68a9721e4e0977b86c5b/output/res/layout/design_navigation_item_header.xml"
+    },
+    {
+        "merged": "/Users/ankurshukla/Documents/android-BluetoothLeGatt/Application/build/intermediates/res/merged/debug/layout/design_text_input_password_icon.xml",
+        "source": "/Users/ankurshukla/.android/build-cache/3090b8716b7c05aceacb68a9721e4e0977b86c5b/output/res/layout/design_text_input_password_icon.xml"
+    },
+    {
         "merged": "/Users/ankurshukla/Documents/android-BluetoothLeGatt/Application/build/intermediates/res/merged/debug/layout/notification_template_big_media_narrow.xml",
         "source": "/Users/ankurshukla/.android/build-cache/650137c6c50fd62ec03513e03e26a37c53de681c/output/res/layout/notification_template_big_media_narrow.xml"
     },
@@ -22,6 +30,10 @@
     {
         "merged": "/Users/ankurshukla/Documents/android-BluetoothLeGatt/Application/build/intermediates/res/merged/debug/layout/notification_template_part_time.xml",
         "source": "/Users/ankurshukla/.android/build-cache/c759e2582ef70a2a85516f4923290d700e215989/output/res/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "/Users/ankurshukla/Documents/android-BluetoothLeGatt/Application/build/intermediates/res/merged/debug/layout/design_navigation_item.xml",
+        "source": "/Users/ankurshukla/.android/build-cache/3090b8716b7c05aceacb68a9721e4e0977b86c5b/output/res/layout/design_navigation_item.xml"
     },
     {
         "merged": "/Users/ankurshukla/Documents/android-BluetoothLeGatt/Application/build/intermediates/res/merged/debug/layout/tooltip.xml",
@@ -36,12 +48,24 @@
         "source": "/Users/ankurshukla/.android/build-cache/4c94316f2b013449998d020fa4e2ae7d3bb299f5/output/res/layout/abc_list_menu_item_icon.xml"
     },
     {
+        "merged": "/Users/ankurshukla/Documents/android-BluetoothLeGatt/Application/build/intermediates/res/merged/debug/layout/item_dialog.xml",
+        "source": "/Users/ankurshukla/.android/build-cache/e844df5cab675bcfb96ca66a6319e205fd2caf83/output/res/layout/item_dialog.xml"
+    },
+    {
+        "merged": "/Users/ankurshukla/Documents/android-BluetoothLeGatt/Application/build/intermediates/res/merged/debug/layout/design_layout_tab_text.xml",
+        "source": "/Users/ankurshukla/.android/build-cache/3090b8716b7c05aceacb68a9721e4e0977b86c5b/output/res/layout/design_layout_tab_text.xml"
+    },
+    {
         "merged": "/Users/ankurshukla/Documents/android-BluetoothLeGatt/Application/build/intermediates/res/merged/debug/layout/notification_template_big_media_narrow_custom.xml",
         "source": "/Users/ankurshukla/.android/build-cache/650137c6c50fd62ec03513e03e26a37c53de681c/output/res/layout/notification_template_big_media_narrow_custom.xml"
     },
     {
         "merged": "/Users/ankurshukla/Documents/android-BluetoothLeGatt/Application/build/intermediates/res/merged/debug/layout/abc_alert_dialog_title_material.xml",
         "source": "/Users/ankurshukla/.android/build-cache/4c94316f2b013449998d020fa4e2ae7d3bb299f5/output/res/layout/abc_alert_dialog_title_material.xml"
+    },
+    {
+        "merged": "/Users/ankurshukla/Documents/android-BluetoothLeGatt/Application/build/intermediates/res/merged/debug/layout/design_navigation_menu.xml",
+        "source": "/Users/ankurshukla/.android/build-cache/3090b8716b7c05aceacb68a9721e4e0977b86c5b/output/res/layout/design_navigation_menu.xml"
     },
     {
         "merged": "/Users/ankurshukla/Documents/android-BluetoothLeGatt/Application/build/intermediates/res/merged/debug/layout/listitem_device.xml",
@@ -52,12 +76,20 @@
         "source": "/Users/ankurshukla/.android/build-cache/c759e2582ef70a2a85516f4923290d700e215989/output/res/layout/notification_template_part_chronometer.xml"
     },
     {
+        "merged": "/Users/ankurshukla/Documents/android-BluetoothLeGatt/Application/build/intermediates/res/merged/debug/layout/activity_main_scan.xml",
+        "source": "/Users/ankurshukla/Documents/android-BluetoothLeGatt/Application/src/main/res/layout/activity_main_scan.xml"
+    },
+    {
         "merged": "/Users/ankurshukla/Documents/android-BluetoothLeGatt/Application/build/intermediates/res/merged/debug/layout/abc_screen_toolbar.xml",
         "source": "/Users/ankurshukla/.android/build-cache/4c94316f2b013449998d020fa4e2ae7d3bb299f5/output/res/layout/abc_screen_toolbar.xml"
     },
     {
         "merged": "/Users/ankurshukla/Documents/android-BluetoothLeGatt/Application/build/intermediates/res/merged/debug/layout/notification_template_lines_media.xml",
         "source": "/Users/ankurshukla/.android/build-cache/650137c6c50fd62ec03513e03e26a37c53de681c/output/res/layout/notification_template_lines_media.xml"
+    },
+    {
+        "merged": "/Users/ankurshukla/Documents/android-BluetoothLeGatt/Application/build/intermediates/res/merged/debug/layout/design_navigation_menu_item.xml",
+        "source": "/Users/ankurshukla/.android/build-cache/3090b8716b7c05aceacb68a9721e4e0977b86c5b/output/res/layout/design_navigation_menu_item.xml"
     },
     {
         "merged": "/Users/ankurshukla/Documents/android-BluetoothLeGatt/Application/build/intermediates/res/merged/debug/layout/notification_action.xml",
@@ -84,6 +116,10 @@
         "source": "/Users/ankurshukla/.android/build-cache/4c94316f2b013449998d020fa4e2ae7d3bb299f5/output/res/layout/abc_action_menu_item_layout.xml"
     },
     {
+        "merged": "/Users/ankurshukla/Documents/android-BluetoothLeGatt/Application/build/intermediates/res/merged/debug/layout/design_layout_tab_icon.xml",
+        "source": "/Users/ankurshukla/.android/build-cache/3090b8716b7c05aceacb68a9721e4e0977b86c5b/output/res/layout/design_layout_tab_icon.xml"
+    },
+    {
         "merged": "/Users/ankurshukla/Documents/android-BluetoothLeGatt/Application/build/intermediates/res/merged/debug/layout/abc_screen_simple.xml",
         "source": "/Users/ankurshukla/.android/build-cache/4c94316f2b013449998d020fa4e2ae7d3bb299f5/output/res/layout/abc_screen_simple.xml"
     },
@@ -94,6 +130,10 @@
     {
         "merged": "/Users/ankurshukla/Documents/android-BluetoothLeGatt/Application/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view_list_item.xml",
         "source": "/Users/ankurshukla/.android/build-cache/4c94316f2b013449998d020fa4e2ae7d3bb299f5/output/res/layout/abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "/Users/ankurshukla/Documents/android-BluetoothLeGatt/Application/build/intermediates/res/merged/debug/layout/design_menu_item_action_area.xml",
+        "source": "/Users/ankurshukla/.android/build-cache/3090b8716b7c05aceacb68a9721e4e0977b86c5b/output/res/layout/design_menu_item_action_area.xml"
     },
     {
         "merged": "/Users/ankurshukla/Documents/android-BluetoothLeGatt/Application/build/intermediates/res/merged/debug/layout/notification_template_icon_group.xml",
@@ -116,6 +156,22 @@
         "source": "/Users/ankurshukla/.android/build-cache/4c94316f2b013449998d020fa4e2ae7d3bb299f5/output/res/layout/abc_action_mode_bar.xml"
     },
     {
+        "merged": "/Users/ankurshukla/Documents/android-BluetoothLeGatt/Application/build/intermediates/res/merged/debug/layout/design_layout_snackbar.xml",
+        "source": "/Users/ankurshukla/.android/build-cache/3090b8716b7c05aceacb68a9721e4e0977b86c5b/output/res/layout/design_layout_snackbar.xml"
+    },
+    {
+        "merged": "/Users/ankurshukla/Documents/android-BluetoothLeGatt/Application/build/intermediates/res/merged/debug/layout/design_bottom_navigation_item.xml",
+        "source": "/Users/ankurshukla/.android/build-cache/3090b8716b7c05aceacb68a9721e4e0977b86c5b/output/res/layout/design_bottom_navigation_item.xml"
+    },
+    {
+        "merged": "/Users/ankurshukla/Documents/android-BluetoothLeGatt/Application/build/intermediates/res/merged/debug/layout/view_message_input.xml",
+        "source": "/Users/ankurshukla/.android/build-cache/e844df5cab675bcfb96ca66a6319e205fd2caf83/output/res/layout/view_message_input.xml"
+    },
+    {
+        "merged": "/Users/ankurshukla/Documents/android-BluetoothLeGatt/Application/build/intermediates/res/merged/debug/layout/design_layout_snackbar_include.xml",
+        "source": "/Users/ankurshukla/.android/build-cache/3090b8716b7c05aceacb68a9721e4e0977b86c5b/output/res/layout/design_layout_snackbar_include.xml"
+    },
+    {
         "merged": "/Users/ankurshukla/Documents/android-BluetoothLeGatt/Application/build/intermediates/res/merged/debug/layout/notification_media_cancel_action.xml",
         "source": "/Users/ankurshukla/.android/build-cache/650137c6c50fd62ec03513e03e26a37c53de681c/output/res/layout/notification_media_cancel_action.xml"
     },
@@ -136,8 +192,20 @@
         "source": "/Users/ankurshukla/.android/build-cache/4c94316f2b013449998d020fa4e2ae7d3bb299f5/output/res/layout/abc_action_bar_view_list_nav_layout.xml"
     },
     {
+        "merged": "/Users/ankurshukla/Documents/android-BluetoothLeGatt/Application/build/intermediates/res/merged/debug/layout/item_incoming_text_message.xml",
+        "source": "/Users/ankurshukla/.android/build-cache/e844df5cab675bcfb96ca66a6319e205fd2caf83/output/res/layout/item_incoming_text_message.xml"
+    },
+    {
         "merged": "/Users/ankurshukla/Documents/android-BluetoothLeGatt/Application/build/intermediates/res/merged/debug/layout/abc_action_bar_up_container.xml",
         "source": "/Users/ankurshukla/.android/build-cache/4c94316f2b013449998d020fa4e2ae7d3bb299f5/output/res/layout/abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "/Users/ankurshukla/Documents/android-BluetoothLeGatt/Application/build/intermediates/res/merged/debug/layout/design_navigation_item_subheader.xml",
+        "source": "/Users/ankurshukla/.android/build-cache/3090b8716b7c05aceacb68a9721e4e0977b86c5b/output/res/layout/design_navigation_item_subheader.xml"
+    },
+    {
+        "merged": "/Users/ankurshukla/Documents/android-BluetoothLeGatt/Application/build/intermediates/res/merged/debug/layout/item_outcoming_image_message.xml",
+        "source": "/Users/ankurshukla/.android/build-cache/e844df5cab675bcfb96ca66a6319e205fd2caf83/output/res/layout/item_outcoming_image_message.xml"
     },
     {
         "merged": "/Users/ankurshukla/Documents/android-BluetoothLeGatt/Application/build/intermediates/res/merged/debug/layout/gatt_services_characteristics.xml",
@@ -172,6 +240,10 @@
         "source": "/Users/ankurshukla/.android/build-cache/4c94316f2b013449998d020fa4e2ae7d3bb299f5/output/res/layout/abc_activity_chooser_view.xml"
     },
     {
+        "merged": "/Users/ankurshukla/Documents/android-BluetoothLeGatt/Application/build/intermediates/res/merged/debug/layout/item_date_header.xml",
+        "source": "/Users/ankurshukla/.android/build-cache/e844df5cab675bcfb96ca66a6319e205fd2caf83/output/res/layout/item_date_header.xml"
+    },
+    {
         "merged": "/Users/ankurshukla/Documents/android-BluetoothLeGatt/Application/build/intermediates/res/merged/debug/layout/notification_template_media.xml",
         "source": "/Users/ankurshukla/.android/build-cache/650137c6c50fd62ec03513e03e26a37c53de681c/output/res/layout/notification_template_media.xml"
     },
@@ -188,11 +260,27 @@
         "source": "/Users/ankurshukla/.android/build-cache/4c94316f2b013449998d020fa4e2ae7d3bb299f5/output/res/layout/abc_screen_simple_overlay_action_mode.xml"
     },
     {
+        "merged": "/Users/ankurshukla/Documents/android-BluetoothLeGatt/Application/build/intermediates/res/merged/debug/layout/item_outcoming_text_message.xml",
+        "source": "/Users/ankurshukla/.android/build-cache/e844df5cab675bcfb96ca66a6319e205fd2caf83/output/res/layout/item_outcoming_text_message.xml"
+    },
+    {
         "merged": "/Users/ankurshukla/Documents/android-BluetoothLeGatt/Application/build/intermediates/res/merged/debug/layout/abc_dialog_title_material.xml",
         "source": "/Users/ankurshukla/.android/build-cache/4c94316f2b013449998d020fa4e2ae7d3bb299f5/output/res/layout/abc_dialog_title_material.xml"
     },
     {
         "merged": "/Users/ankurshukla/Documents/android-BluetoothLeGatt/Application/build/intermediates/res/merged/debug/layout/notification_template_big_media_custom.xml",
         "source": "/Users/ankurshukla/.android/build-cache/650137c6c50fd62ec03513e03e26a37c53de681c/output/res/layout/notification_template_big_media_custom.xml"
+    },
+    {
+        "merged": "/Users/ankurshukla/Documents/android-BluetoothLeGatt/Application/build/intermediates/res/merged/debug/layout/design_bottom_sheet_dialog.xml",
+        "source": "/Users/ankurshukla/.android/build-cache/3090b8716b7c05aceacb68a9721e4e0977b86c5b/output/res/layout/design_bottom_sheet_dialog.xml"
+    },
+    {
+        "merged": "/Users/ankurshukla/Documents/android-BluetoothLeGatt/Application/build/intermediates/res/merged/debug/layout/item_incoming_image_message.xml",
+        "source": "/Users/ankurshukla/.android/build-cache/e844df5cab675bcfb96ca66a6319e205fd2caf83/output/res/layout/item_incoming_image_message.xml"
+    },
+    {
+        "merged": "/Users/ankurshukla/Documents/android-BluetoothLeGatt/Application/build/intermediates/res/merged/debug/layout/design_navigation_item_separator.xml",
+        "source": "/Users/ankurshukla/.android/build-cache/3090b8716b7c05aceacb68a9721e4e0977b86c5b/output/res/layout/design_navigation_item_separator.xml"
     }
 ]

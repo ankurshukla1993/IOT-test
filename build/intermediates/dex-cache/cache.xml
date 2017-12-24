@@ -39,48 +39,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/ankurshukla/.android/build-cache/17d8cf8cc92a06e94c350a71c4e738c259ef0da8/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.1"
-        sha1="233f60a165ae622c8b36731502ebbda0f65e1930">
-        <dex dex="/Users/ankurshukla/Documents/android-BluetoothLeGatt/Application/build/intermediates/pre-dexed/debug/classes_77f9396ae7b637eade19018be2949b2c5b589d22.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/ankurshukla/Documents/android-BluetoothLeGatt/Application/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="98ac0cd63c5345a0c30e1b9ea654cd0f410bcc0a">
-        <dex dex="/Users/ankurshukla/Documents/android-BluetoothLeGatt/Application/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_8b19351e2ed0b13469dbff1189e1623e91467c49/classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/ankurshukla/.android/build-cache/d261c816110e0af10c1ae9dc13186fb8c0bad6cf/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.1"
-        sha1="7efef32744ca4a436492d5cf28c08698cc2af256">
-        <dex dex="/Users/ankurshukla/Documents/android-BluetoothLeGatt/Application/build/intermediates/pre-dexed/debug/classes_1ef636fec8cc7edfdbc575a58f6de6d72be8099c.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/Users/ankurshukla/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.0.0/a2d487452376193fc8c103dd2b9bd5f2b1b44563/common-1.0.0.jar"
         jumboMode="false"
         optimize="true"
         revision="26.0.1"
         sha1="a2d487452376193fc8c103dd2b9bd5f2b1b44563">
         <dex dex="/Users/ankurshukla/Documents/android-BluetoothLeGatt/Application/build/intermediates/pre-dexed/debug/common-1.0.0_95f9051aa767a41635d16edda2058d537a068908.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/ankurshukla/.android/build-cache/6634f6acfdfe4fb53aaa229e40e86169472d429b/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.1"
-        sha1="b62fdc4cfef174c1e456014195c83fa7de7dc041">
-        <dex dex="/Users/ankurshukla/Documents/android-BluetoothLeGatt/Application/build/intermediates/pre-dexed/debug/classes_f325a8cbca8142feb9bbcd00b72327ddeb782a27.jar" />
     </item>
     <item
         is-multidex="false"
@@ -129,12 +93,138 @@
     </item>
     <item
         is-multidex="false"
+        jar="/Users/ankurshukla/.android/build-cache/a50ac3c9a828b82b8f31593c6726224508d0fa4b/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
+        <dex dex="/Users/ankurshukla/Documents/android-BluetoothLeGatt/Application/build/intermediates/pre-dexed/debug/classes_f5ace88fb37ae62b4037fe0a544fed2f4973da45.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/Users/ankurshukla/.android/build-cache/39c415c567e8f9f07915c052dfbdba5d1e3bb3c9/output/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="26.0.1"
         sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
         <dex dex="/Users/ankurshukla/Documents/android-BluetoothLeGatt/Application/build/intermediates/pre-dexed/debug/classes_75882cfd0fccb815530708867fb4f592143516f4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ankurshukla/.android/build-cache/93efb3cbf2bfd0282a852e3a33f65224bcc53954/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="775715f20fc19479343592af2fa4d46c7d00fa5e">
+        <dex dex="/Users/ankurshukla/Documents/android-BluetoothLeGatt/Application/build/intermediates/pre-dexed/debug/classes_55381cf8c021a96970a8f90f0ffb680a74092465.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ankurshukla/.android/build-cache/a50ac3c9a828b82b8f31593c6726224508d0fa4b/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
+        <dex dex="/Users/ankurshukla/Documents/android-BluetoothLeGatt/Application/build/intermediates/transforms/dex/debug/folders/1000/10/classes_f5ace88fb37ae62b4037fe0a544fed2f4973da45/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ankurshukla/.android/build-cache/93efb3cbf2bfd0282a852e3a33f65224bcc53954/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="775715f20fc19479343592af2fa4d46c7d00fa5e">
+        <dex dex="/Users/ankurshukla/Documents/android-BluetoothLeGatt/Application/build/intermediates/transforms/dex/debug/folders/1000/10/classes_55381cf8c021a96970a8f90f0ffb680a74092465/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ankurshukla/.android/build-cache/e844df5cab675bcfb96ca66a6319e205fd2caf83/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="c0c5e5fecc416c509eb71d149c9c42bc1c09d181">
+        <dex dex="/Users/ankurshukla/Documents/android-BluetoothLeGatt/Application/build/intermediates/transforms/dex/debug/folders/1000/10/classes_9a703f8b5689e3057b9fb61137a3c5840f37a931/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ankurshukla/.android/build-cache/e844df5cab675bcfb96ca66a6319e205fd2caf83/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="c0c5e5fecc416c509eb71d149c9c42bc1c09d181">
+        <dex dex="/Users/ankurshukla/Documents/android-BluetoothLeGatt/Application/build/intermediates/pre-dexed/debug/classes_9a703f8b5689e3057b9fb61137a3c5840f37a931.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ankurshukla/.android/build-cache/17d8cf8cc92a06e94c350a71c4e738c259ef0da8/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="233f60a165ae622c8b36731502ebbda0f65e1930">
+        <dex dex="/Users/ankurshukla/Documents/android-BluetoothLeGatt/Application/build/intermediates/pre-dexed/debug/classes_77f9396ae7b637eade19018be2949b2c5b589d22.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ankurshukla/Documents/android-BluetoothLeGatt/Application/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="98c669216f8e1d96c998aaa52ec25e1ca317bfa3">
+        <dex dex="/Users/ankurshukla/Documents/android-BluetoothLeGatt/Application/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_8b19351e2ed0b13469dbff1189e1623e91467c49/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ankurshukla/.android/build-cache/d261c816110e0af10c1ae9dc13186fb8c0bad6cf/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="7efef32744ca4a436492d5cf28c08698cc2af256">
+        <dex dex="/Users/ankurshukla/Documents/android-BluetoothLeGatt/Application/build/intermediates/pre-dexed/debug/classes_1ef636fec8cc7edfdbc575a58f6de6d72be8099c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ankurshukla/.android/build-cache/3090b8716b7c05aceacb68a9721e4e0977b86c5b/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
+        <dex dex="/Users/ankurshukla/Documents/android-BluetoothLeGatt/Application/build/intermediates/pre-dexed/debug/classes_db7d52da1be130f4f5b728d50f2023896895cf72.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ankurshukla/.android/build-cache/3090b8716b7c05aceacb68a9721e4e0977b86c5b/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
+        <dex dex="/Users/ankurshukla/Documents/android-BluetoothLeGatt/Application/build/intermediates/transforms/dex/debug/folders/1000/10/classes_db7d52da1be130f4f5b728d50f2023896895cf72/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ankurshukla/.android/build-cache/6634f6acfdfe4fb53aaa229e40e86169472d429b/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="b62fdc4cfef174c1e456014195c83fa7de7dc041">
+        <dex dex="/Users/ankurshukla/Documents/android-BluetoothLeGatt/Application/build/intermediates/pre-dexed/debug/classes_f325a8cbca8142feb9bbcd00b72327ddeb782a27.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ankurshukla/.android/build-cache/8a56c0d7f24bb932ae42df4108d3aee3e217d5c4/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="95519720620b553f63afc789beba9ad582807f7c">
+        <dex dex="/Users/ankurshukla/Documents/android-BluetoothLeGatt/Application/build/intermediates/pre-dexed/debug/classes_7cf0ac649e8f4dae39b8d472ad21e6b956d97fa6.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ankurshukla/.android/build-cache/8a56c0d7f24bb932ae42df4108d3aee3e217d5c4/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="95519720620b553f63afc789beba9ad582807f7c">
+        <dex dex="/Users/ankurshukla/Documents/android-BluetoothLeGatt/Application/build/intermediates/transforms/dex/debug/folders/1000/10/classes_7cf0ac649e8f4dae39b8d472ad21e6b956d97fa6/classes.dex" />
     </item>
     <item
         is-multidex="false"

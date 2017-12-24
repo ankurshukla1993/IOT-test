@@ -23,9 +23,9 @@ import java.util.HashMap;
  */
 public class SampleGattAttributes {
     private static HashMap<String, String> attributes = new HashMap();
-    public static String BPMETERUUID = "000018f0-0000-1000-8000-00805f9b34fb";
-    public static String BPMETERWRITEINFOUUID = "00002af1-0000-1000-8000-00805f9b34fb";
-    public static String BPMreadinfoCUID = "00002af0-0000-1000-8000-00805f9b34fb";
+    public static String SERVICE_UUID = "000018f0-0000-1000-8000-00805f9b34fb";
+    public static String SERVICE_WRITE_CHANNEL = "00002af1-0000-1000-8000-00805f9b34fb";
+    public static String SERVICE_READ_CHANNEL = "00002af0-0000-1000-8000-00805f9b34fb";
 
 
     static byte[] hexStringToByteArray(String s) {

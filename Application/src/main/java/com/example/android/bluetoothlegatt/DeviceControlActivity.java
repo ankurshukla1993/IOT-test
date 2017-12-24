@@ -25,6 +25,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.content.ServiceConnection;
+import android.content.res.Resources;
 import android.os.Bundle;
 import android.os.IBinder;
 import android.util.Log;
@@ -52,7 +53,21 @@ public class DeviceControlActivity extends Activity {
     public static final String EXTRAS_DEVICE_ADDRESS = "DEVICE_ADDRESS";
 
     private TextView mConnectionState;
-    private TextView mDataField;
+    private TextView mDataFieldACTION_DATA_AVAILABLE;
+    private TextView mDataFieldEXTRA_DATA_BATTERY_STATUS;
+    private TextView mDataFieldEXTRA_DATA_SYSTOLIC_PROGRESS;
+    private TextView mDataFieldEXTRA_DATA_BP_SYSTOLIC;
+    private TextView mDataFieldEXTRA_DATA_BP_DIASTOLIC;
+    private TextView mDataFieldEXTRA_DATA_BP_HEART_RATE;
+    private TextView mDataFieldEXTRA_DATA_ERROR;
+    /*
+                EXTRA_DATA_BATTERY_STATUS,
+                EXTRA_DATA_SYSTOLIC_PROGRESS,
+                EXTRA_DATA_BP_SYSTOLIC,
+                EXTRA_DATA_BP_DIASTOLIC,
+                EXTRA_DATA_BP_HEART_RATE,
+                EXTRA_DATA_ERROR
+                */
     private String mDeviceName;
     private String mDeviceAddress;
     private ExpandableListView mGattServicesList;
@@ -104,27 +119,35 @@ public class DeviceControlActivity extends Activity {
                 updateConnectionState(R.string.disconnected);
                 invalidateOptionsMenu();
                 clearUI();
+
             } else if (BluetoothLeService.ACTION_GATT_SERVICES_DISCOVERED.equals(action)) {
                 // Show all the supported services and characteristics on the user interface.
                 displayGattServices(mBluetoothLeService.getSupportedGattServices());
             } else if (BluetoothLeService.ACTION_DATA_AVAILABLE.equals(action)) {
-                //displayData(intent.getStringExtra(BluetoothLeService.EXTRA_DATA));
+                //displayData(intent.getStringExtra(BluetoothLeService.EXTRA_DATA), "ACTION_DATA_AVAILABLE");
 //                Log.d("Data Tag", intent.getStringExtra(BluetoothLeService.EXTRA_DATA_BATTERY_STATUS));
 
                 if (intent.getStringExtra(BluetoothLeService.EXTRA_DATA_BATTERY_STATUS) != null) {
-                    displayData(intent.getStringExtra(BluetoothLeService.EXTRA_DATA_BATTERY_STATUS));
+                    displayData(intent.getStringExtra(BluetoothLeService.EXTRA_DATA_BATTERY_STATUS), "EXTRA_DATA_BATTERY_STATUS");
                     Log.d("Data Tag", intent.getStringExtra(BluetoothLeService.EXTRA_DATA_BATTERY_STATUS));
                 }
                 if (intent.getStringExtra(BluetoothLeService.EXTRA_DATA_SYSTOLIC_PROGRESS) != null) {
-                    displayData(intent.getStringExtra(BluetoothLeService.EXTRA_DATA_SYSTOLIC_PROGRESS));
+                    displayData(intent.getStringExtra(BluetoothLeService.EXTRA_DATA_SYSTOLIC_PROGRESS), "EXTRA_DATA_SYSTOLIC_PROGRESS");
                     Log.d("Data Tag", intent.getStringExtra(BluetoothLeService.EXTRA_DATA_SYSTOLIC_PROGRESS));
                 }
                 if (intent.getIntExtra(BluetoothLeService.EXTRA_DATA_BP_SYSTOLIC, 0) != 0 && intent.getIntExtra(BluetoothLeService.EXTRA_DATA_BP_DIASTOLIC, 0) != 0 && intent.getIntExtra(BluetoothLeService.EXTRA_DATA_BP_HEART_RATE, 0) != 0) {
-                    displayData(intent.getStringExtra(BluetoothLeService.EXTRA_DATA_BP_SYSTOLIC));
-                    Log.d("Data Tag", intent.getStringExtra(BluetoothLeService.EXTRA_DATA_BP_SYSTOLIC));
+                    Log.d("Debugger Tag", "Checking EXTRA_DATA_BP_SYSTOLIC Value 1");
+                    displayData(String.valueOf(intent.getIntExtra(BluetoothLeService.EXTRA_DATA_BP_SYSTOLIC, 0)), "EXTRA_DATA_BP_SYSTOLIC");
+                    Log.d("Data Tag", String.valueOf(intent.getIntExtra(BluetoothLeService.EXTRA_DATA_BP_SYSTOLIC, 0)));
+                    Log.d("Debugger Tag", "Checking EXTRA_DATA_BP_HEART_RATE Value 2");
+                    displayData(String.valueOf(intent.getIntExtra(BluetoothLeService.EXTRA_DATA_BP_DIASTOLIC, 0)), "EXTRA_DATA_BP_DIASTOLIC");
+                    Log.d("Data Tag", String.valueOf(intent.getIntExtra(BluetoothLeService.EXTRA_DATA_BP_DIASTOLIC, 0)));
+                    Log.d("Debugger Tag", "Checking EXTRA_DATA_BP_HEART_RATE Value 3");
+                    displayData(String.valueOf(intent.getIntExtra(BluetoothLeService.EXTRA_DATA_BP_HEART_RATE, 0)), "EXTRA_DATA_BP_HEART_RATE");
+                    Log.d("Data Tag", String.valueOf(intent.getIntExtra(BluetoothLeService.EXTRA_DATA_BP_HEART_RATE, 0)));
                 }
                 if (intent.getStringExtra(BluetoothLeService.EXTRA_DATA_ERROR) != null) {
-                    displayData(intent.getStringExtra(BluetoothLeService.EXTRA_DATA_ERROR));
+                    displayData(intent.getStringExtra(BluetoothLeService.EXTRA_DATA_ERROR), "EXTRA_DATA_ERROR");
                     Log.d("Data Tag", intent.getStringExtra(BluetoothLeService.EXTRA_DATA_ERROR));
                 }
             }
@@ -161,13 +184,19 @@ public class DeviceControlActivity extends Activity {
                         }
                         return true;
                     }
-                    return false;
+                    return true;
                 }
     };
 
     private void clearUI() {
         mGattServicesList.setAdapter((SimpleExpandableListAdapter) null);
-        mDataField.setText(R.string.no_data);
+        mDataFieldACTION_DATA_AVAILABLE.setText(R.string.no_data);
+        mDataFieldEXTRA_DATA_BATTERY_STATUS.setText(R.string.no_data);
+        mDataFieldEXTRA_DATA_SYSTOLIC_PROGRESS.setText(R.string.no_data);
+        mDataFieldEXTRA_DATA_BP_SYSTOLIC.setText(R.string.no_data);
+        mDataFieldEXTRA_DATA_BP_DIASTOLIC.setText(R.string.no_data);
+        mDataFieldEXTRA_DATA_BP_HEART_RATE.setText(R.string.no_data);
+        mDataFieldEXTRA_DATA_ERROR.setText(R.string.no_data);
     }
 
     @Override
@@ -184,10 +213,25 @@ public class DeviceControlActivity extends Activity {
         mGattServicesList = (ExpandableListView) findViewById(R.id.gatt_services_list);
         mGattServicesList.setOnChildClickListener(servicesListClickListner);
         mConnectionState = (TextView) findViewById(R.id.connection_state);
-        mDataField = (TextView) findViewById(R.id.data_value);
+        mDataFieldACTION_DATA_AVAILABLE = (TextView) findViewById(R.id.data_value_ACTION_DATA_AVAILABLE);
+        mDataFieldEXTRA_DATA_BATTERY_STATUS = (TextView) findViewById(R.id.data_value_EXTRA_DATA_BATTERY_STATUS);
+        mDataFieldEXTRA_DATA_SYSTOLIC_PROGRESS = (TextView) findViewById(R.id.data_value_EXTRA_DATA_SYSTOLIC_PROGRESS);
+        mDataFieldEXTRA_DATA_BP_SYSTOLIC = (TextView) findViewById(R.id.data_value_EXTRA_DATA_BP_SYSTOLIC);
+        mDataFieldEXTRA_DATA_BP_DIASTOLIC = (TextView) findViewById(R.id.data_value_EXTRA_DATA_BP_DIASTOLIC);
+        mDataFieldEXTRA_DATA_BP_HEART_RATE = (TextView) findViewById(R.id.data_value_EXTRA_DATA_BP_HEART_RATE);
+        mDataFieldEXTRA_DATA_ERROR = (TextView) findViewById(R.id.data_value_EXTRA_DATA_ERROR);
+        /*
+                ACTION_DATA_AVAILABLE,
+                EXTRA_DATA_BATTERY_STATUS,
+                EXTRA_DATA_SYSTOLIC_PROGRESS,
+                EXTRA_DATA_BP_SYSTOLIC,
+                EXTRA_DATA_BP_DIASTOLIC,
+                EXTRA_DATA_BP_HEART_RATE,
+                EXTRA_DATA_ERROR
+                */
 
-        getActionBar().setTitle(mDeviceName);
-        getActionBar().setDisplayHomeAsUpEnabled(true);
+//        getActionBar().setTitle(mDeviceName);
+//        getActionBar().setDisplayHomeAsUpEnabled(true);
         Intent gattServiceIntent = new Intent(this, BluetoothLeService.class);
         bindService(gattServiceIntent, mServiceConnection, BIND_AUTO_CREATE);
     }
@@ -253,9 +297,15 @@ public class DeviceControlActivity extends Activity {
         });
     }
 
-    private void displayData(String data) {
+    private void displayData(String data, String field_data) {
+        String packageName = getPackageName();
+        Resources res = getResources() ;
+        int resId = res.getIdentifier("data_value_" + field_data, "id", getPackageName());
+        // getResources().getIdentifier("data_value_" + field_data, "id", getPackageName());
+        TextView mDataFieldACTION_DATA_AVAILABLE = (TextView) findViewById(resId);
         if (data != null) {
-            mDataField.setText(data);
+            String a = mDataFieldACTION_DATA_AVAILABLE.getText().toString();
+            mDataFieldACTION_DATA_AVAILABLE.setText(field_data + " :  "  + data);
         }
     }
 
@@ -287,12 +337,12 @@ public class DeviceControlActivity extends Activity {
                     gattService.getCharacteristics();
             ArrayList<BluetoothGattCharacteristic> charas =
                     new ArrayList<BluetoothGattCharacteristic>();
-
             // Loops through available Characteristics.
             for (BluetoothGattCharacteristic gattCharacteristic : gattCharacteristics) {
                 charas.add(gattCharacteristic);
                 HashMap<String, String> currentCharaData = new HashMap<String, String>();
                 uuid = gattCharacteristic.getUuid().toString();
+
                 currentCharaData.put(
                         LIST_NAME, SampleGattAttributes.lookup(uuid, unknownCharaString));
                 currentCharaData.put(LIST_UUID, uuid);

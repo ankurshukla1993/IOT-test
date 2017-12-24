@@ -4,6 +4,10 @@
         "source": "/Users/ankurshukla/.android/build-cache/4c94316f2b013449998d020fa4e2ae7d3bb299f5/output/res/color/abc_primary_text_material_dark.xml"
     },
     {
+        "merged": "/Users/ankurshukla/Documents/android-BluetoothLeGatt/Application/build/intermediates/res/merged/debug/color/design_tint_password_toggle.xml",
+        "source": "/Users/ankurshukla/.android/build-cache/3090b8716b7c05aceacb68a9721e4e0977b86c5b/output/res/color/design_tint_password_toggle.xml"
+    },
+    {
         "merged": "/Users/ankurshukla/Documents/android-BluetoothLeGatt/Application/build/intermediates/res/merged/debug/color/abc_tint_seek_thumb.xml",
         "source": "/Users/ankurshukla/.android/build-cache/4c94316f2b013449998d020fa4e2ae7d3bb299f5/output/res/color/abc_tint_seek_thumb.xml"
     },
@@ -62,6 +66,10 @@
     {
         "merged": "/Users/ankurshukla/Documents/android-BluetoothLeGatt/Application/build/intermediates/res/merged/debug/color/abc_tint_edittext.xml",
         "source": "/Users/ankurshukla/.android/build-cache/4c94316f2b013449998d020fa4e2ae7d3bb299f5/output/res/color/abc_tint_edittext.xml"
+    },
+    {
+        "merged": "/Users/ankurshukla/Documents/android-BluetoothLeGatt/Application/build/intermediates/res/merged/debug/color/design_error.xml",
+        "source": "/Users/ankurshukla/.android/build-cache/3090b8716b7c05aceacb68a9721e4e0977b86c5b/output/res/color/design_error.xml"
     },
     {
         "merged": "/Users/ankurshukla/Documents/android-BluetoothLeGatt/Application/build/intermediates/res/merged/debug/color/abc_hint_foreground_material_light.xml",

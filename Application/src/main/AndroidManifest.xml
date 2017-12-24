@@ -37,8 +37,10 @@
 
     <application android:label="@string/app_name"
         android:icon="@drawable/ic_launcher"
-        android:theme="@android:style/Theme.Holo.Light">
-        <activity android:name=".DeviceScanActivity"
+        android:theme="@style/Theme.AppCompat.Light"
+
+        >
+        <activity android:name=".NewMainActivity"
             android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
