@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" android:tag="layout/activity_device_select_0" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <android.support.design.widget.AppBarLayout android:theme="@style/AppBarOverlay" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <android.support.v7.widget.Toolbar android:id="@id/toolbar" android:background="?attr/colorPrimary" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f040006" android:popupTheme="@style/PopupOverlay" />
+    </android.support.design.widget.AppBarLayout>
+    <android.support.v4.widget.NestedScrollView android:id="@id/content_device_select" android:paddingTop="60dp" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingTop="@dimen/activity_vertical_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:paddingBottom="@dimen/activity_vertical_margin" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_behavior="@string/appbar_scrolling_view_behavior">
+            <android.support.v7.widget.CardView android:id="@id/bp_card_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="10dp">
+                <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <ImageView android:id="@id/bp_monitor_image" android:padding="10dp" android:layout_width="UNKNOWN_DATA_0x8c01" android:layout_height="UNKNOWN_DATA_0x8c01" android:src="@drawable/bp_monitor" android:scaleType="centerInside" />
+                    <TextView android:textSize="18sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="10dp" android:text="@string/blood_pressure_monitor" android:layout_toRightOf="@id/bp_monitor_image" android:layout_marginStart="20dp" android:layout_toEndOf="@id/bp_monitor_image" />
+                    <Button android:id="@id/blood_pressure_device_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/add" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true" style="@style/Widget.AppCompat.Button.Borderless.Colored" />
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="10dp">
+                <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <ImageView android:id="@id/body_analyzer_image" android:padding="10dp" android:layout_width="UNKNOWN_DATA_0x8c01" android:layout_height="UNKNOWN_DATA_0x8c01" android:src="@drawable/body_analyser_512" android:scaleType="centerInside" />
+                    <TextView android:textSize="18sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="10dp" android:text="@string/smart_body_analyzer" android:layout_toRightOf="@id/body_analyzer_image" android:layout_marginStart="20dp" android:layout_toEndOf="@id/body_analyzer_image" />
+                    <Button android:id="@id/body_analyzer_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/add" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true" style="@style/Widget.AppCompat.Button.Borderless.Colored" />
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</android.support.design.widget.CoordinatorLayout>

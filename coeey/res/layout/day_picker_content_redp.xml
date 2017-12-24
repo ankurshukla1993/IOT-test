@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.appeaser.sublimepickerlibrary.datepicker.DayPickerViewPager android:id="@id/redp_view_pager" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <ImageButton android:id="@id/prev" android:background="?attr/selectableItemBackgroundBorderless" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/sp_chevron_start" android:minWidth="48dp" android:minHeight="48dp" android:contentDescription="@string/sp_date_picker_prev_month_button" />
+    <ImageButton android:id="@id/next" android:background="?attr/selectableItemBackgroundBorderless" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/sp_chevron_end" android:minWidth="48dp" android:minHeight="48dp" android:contentDescription="@string/sp_date_picker_next_month_button" />
+</merge>

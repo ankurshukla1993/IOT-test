@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginTop="8dp" android:layout_marginRight="16dp" android:layout_marginBottom="8dp">
+    <chatkit.utils.ShapeImageView android:id="@id/messageUserAvatar" android:layout_width="UNKNOWN_DATA_0x2801" android:layout_height="UNKNOWN_DATA_0x2801" android:layout_marginRight="8dp" android:layout_alignParentBottom="true" />
+    <com.google.android.flexbox.FlexboxLayout android:orientation="vertical" android:id="@id/bubble" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/message_incoming_bubble_margin_right" android:layout_toRightOf="@id/messageUserAvatar" android:alignContent="5" android:alignItems="4" android:flexWrap="1" android:justifyContent="1">
+        <TextView android:id="@id/messageText" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:id="@id/messageTime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_below="@id/messageText" android:layout_alignSelf="2" />
+    </com.google.android.flexbox.FlexboxLayout>
+</RelativeLayout>

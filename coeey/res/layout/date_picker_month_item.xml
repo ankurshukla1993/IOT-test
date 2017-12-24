@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.appeaser.sublimepickerlibrary.datepicker.SimpleMonthView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/month_view" android:paddingLeft="@dimen/sp_day_picker_padding_horizontal" android:paddingTop="@dimen/sp_day_picker_padding_top" android:paddingRight="@dimen/sp_day_picker_padding_horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/sp_day_picker_padding_horizontal" android:paddingEnd="@dimen/sp_day_picker_padding_horizontal" />

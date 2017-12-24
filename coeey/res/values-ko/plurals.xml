@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="daily">
+        <item quantity="one">매일</item>
+        <item quantity="other">%d일에 한 번</item>
+    </plurals>
+    <plurals name="endByCount">
+        <item quantity="one">, 일회성</item>
+        <item quantity="other">, %d회</item>
+    </plurals>
+    <plurals name="recurrence_end_count">
+        <item quantity="one">반복 횟수 %d번</item>
+        <item quantity="other">반복 횟수 %d번</item>
+    </plurals>
+    <plurals name="recurrence_interval_daily">
+        <item quantity="one">%d일에 한 번</item>
+        <item quantity="other">%d일에 한 번</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <item quantity="one">%d개월에 한 번</item>
+        <item quantity="other">%d개월에 한 번</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <item quantity="one">%d주에 한 번</item>
+        <item quantity="other">%d주에 한 번</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <item quantity="one">%d년에 한 번</item>
+        <item quantity="other">%d년에 한 번</item>
+    </plurals>
+    <plurals name="weekly">
+        <item quantity="one">매주 %2$s</item>
+        <item quantity="other">%1$d주에 한 번 %2$s</item>
+    </plurals>
+</resources>

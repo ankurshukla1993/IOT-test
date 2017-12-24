@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:id="@id/buttonSwitcher" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="0.0" style="?attr/spButtonModeSwitcherButtonStyle" />
+    <include layout="@layout/decision_button_layout" />
+</merge>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cancel">منسوخ کریں</string>
+    <string name="day_picker_description">دنوں کا ماہ کا گرڈ</string>
+    <string name="deleted_key">%1$s کو حذف کر دیا گیا</string>
+    <string name="item_is_selected">%1$s کو منتخب کیا گیا</string>
+    <string name="ok">ٹھیک ہے</string>
+    <string name="select_day">ماہ اور دن منتخب کریں</string>
+    <string name="select_hours">گھنٹے منتخب کریں</string>
+    <string name="select_minutes">منٹ منتخب کریں</string>
+    <string name="select_year">سال منتخب کریں</string>
+    <string name="year_picker_description">سال کی فہرست</string>
+</resources>

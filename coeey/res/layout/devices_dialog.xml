@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/devices_dialog" android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingTop="@dimen/activity_vertical_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:paddingBottom="@dimen/activity_vertical_margin" android:layout_width="match_parent" android:layout_height="match_parent"
+    <LinearLayout android:orientation="vertical" android:id="@id/llbttitle" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textSize="18sp" android:textColor="@color/colorPrimaryDark" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:padding="3dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Bluetooth Devices" />
+        <View android:background="@color/colorPrimary" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0xc00021" android:layout_marginLeft="16dp" android:layout_marginRight="16dp" />
+        <ListView android:id="@id/lvBluetoothDevices" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:divider="@drawable/bg_dot_line" android:layout_weight="1.0" />
+        <ProgressBar android:id="@id/pbSearchDevices" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <Button android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/btnSearchDevices" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Re-search Devices" android:textAllCaps="false" />
+    </LinearLayout>
+</LinearLayout>

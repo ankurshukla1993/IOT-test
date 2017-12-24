@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <android.support.design.widget.AppBarLayout android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" android:id="@id/appbar" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <android.support.v7.widget.Toolbar android:id="@id/toolbar" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f040006" android:layout_collapseMode="1" android:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+            <TextView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/toolbar_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginRight="40dp" android:text="@string/glucometer" android:textAlignment="center" android:layout_marginEnd="40dp" />
+        </android.support.v7.widget.Toolbar>
+    </android.support.design.widget.AppBarLayout>
+    <com.cooey.devices.views.ControlledCommonViewPager android:id="@id/glucometer_view_pager" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@id/appbar" android:layout_behavior="@string/appbar_scrolling_view_behavior" />
+</RelativeLayout>

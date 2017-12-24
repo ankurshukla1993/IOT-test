@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingTop="@dimen/activity_vertical_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:paddingBottom="@dimen/activity_vertical_margin" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_behavior="@string/appbar_scrolling_view_behavior">
+    <Button android:id="@id/btn_getOfflineData" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3201" android:text="get offlineData" />
+    <Button android:id="@id/btn_startMeasure" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3201" android:text="start measure" />
+    <Button android:id="@id/btn_disconnect" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3201" android:text="Disconnect" />
+    <TextView android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/tv_return" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

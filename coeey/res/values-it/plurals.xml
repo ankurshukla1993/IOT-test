@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="daily">
+        <item quantity="one">Ogni giorno</item>
+        <item quantity="other">Ogni %d giorni</item>
+    </plurals>
+    <plurals name="endByCount">
+        <item quantity="one">; per una volta</item>
+        <item quantity="other">; per %d volte</item>
+    </plurals>
+    <plurals name="recurrence_end_count">
+        <item quantity="one">Per %d evento</item>
+        <item quantity="other">Per %d eventi</item>
+    </plurals>
+    <plurals name="recurrence_interval_daily">
+        <item quantity="one">Ogni %d giorno</item>
+        <item quantity="other">Ogni %d giorni</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <item quantity="one">Ogni %d mese</item>
+        <item quantity="other">Ogni %d mesi</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <item quantity="one">Ogni %d settimana</item>
+        <item quantity="other">Ogni %d settimane</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <item quantity="one">Ogni %d anni</item>
+        <item quantity="other">Ogni %d anni</item>
+    </plurals>
+    <plurals name="weekly">
+        <item quantity="one">Ogni settimana di %2$s</item>
+        <item quantity="other">Ogni %1$d settimane di %2$s</item>
+    </plurals>
+</resources>

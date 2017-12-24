@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/search_suggestions_section" android:background="@color/transparent" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent">
+    <android.support.v7.widget.CardView android:id="@id/suggestions_list_container" android:background="@color/light_gray" android:layout_width="match_parent" android:layout_height="match_parent" android:cardCornerRadius="@dimen/search_view_corner_radius" android:cardUseCompatPadding="true">
+        <android.support.v7.widget.RecyclerView android:id="@id/suggestions_list" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" android:isScrollContainer="false" android:overScrollMode="never" />
+    </android.support.v7.widget.CardView>
+</RelativeLayout>

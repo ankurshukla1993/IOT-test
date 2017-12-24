@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="daily">
+        <item quantity="one">Өдөр тутам</item>
+        <item quantity="other">%d өдөр тутам</item>
+    </plurals>
+    <plurals name="endByCount">
+        <item quantity="one">; нэг удаа</item>
+        <item quantity="other">; %d удаа</item>
+    </plurals>
+    <plurals name="recurrence_end_count">
+        <item quantity="one">%d үйл явдалд</item>
+        <item quantity="other">%d үйл явдалд</item>
+    </plurals>
+    <plurals name="recurrence_interval_daily">
+        <item quantity="one">%d өдөр тутам</item>
+        <item quantity="other">%d өдөр тутам</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <item quantity="one">%d сар тутам</item>
+        <item quantity="other">%d сар тутам</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <item quantity="one">%d долоо хоног тутам</item>
+        <item quantity="other">%d долоо хоног тутам</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <item quantity="one">%d жил тутам</item>
+        <item quantity="other">%d жил тутам</item>
+    </plurals>
+    <plurals name="weekly">
+        <item quantity="one">Долоо хоног бүрийн %2$s</item>
+        <item quantity="other">%1$d долоо хоног тутмын %2$s</item>
+    </plurals>
+</resources>

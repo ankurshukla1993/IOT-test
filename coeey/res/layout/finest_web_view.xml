@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/coordinatorLayout" android:background="@color/finestWhite" android:layout_width="match_parent" android:layout_height="match_parent">
+    <android.support.v4.widget.SwipeRefreshLayout android:id="@id/swipeRefreshLayout" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <android.support.v4.widget.NestedScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+            <FrameLayout android:id="@id/webLayout" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </android.support.v4.widget.NestedScrollView>
+    </android.support.v4.widget.SwipeRefreshLayout>
+    <android.support.design.widget.AppBarLayout android:id="@id/appBar" android:layout_width="match_parent" android:layout_height="wrap_content" android:elevation="0dp">
+        <android.support.v7.widget.Toolbar android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/toolbar" android:padding="0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:contentInsetEnd="0dp" android:contentInsetLeft="0dp" android:contentInsetRight="0dp" android:contentInsetStart="0dp" android:layout_scrollFlags="5">
+            <include layout="@layout/toolbar_content" />
+        </android.support.v7.widget.Toolbar>
+    </android.support.design.widget.AppBarLayout>
+    <View android:id="@id/gradient" android:background="@color/finestBlack10" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f07008a" android:layout_marginTop="@dimen/toolbarHeight" />
+    <ProgressBar android:id="@id/progressBar" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f070092" android:layout_marginTop="@dimen/toolbarHeight" android:indeterminate="false" android:progressDrawable="@drawable/progress_drawable" style="?unknown_attr_ref: 1010078" />
+    <include layout="@layout/menus" />
+</android.support.design.widget.CoordinatorLayout>

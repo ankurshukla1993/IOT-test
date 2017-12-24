@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/container" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.arlib.floatingsearchview.FloatingSearchView android:id="@r$id/floating_search_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" android:floatingSearch_close_search_on_keyboard_dismiss="true" android:floatingSearch_leftActionMode="3" android:floatingSearch_searchBarMarginLeft="10dp" android:floatingSearch_searchBarMarginRight="10dp" android:floatingSearch_searchBarMarginTop="10dp" android:floatingSearch_searchHint="Search medicine" android:floatingSearch_showSearchKey="false" android:floatingSearch_suggestionsListAnimDuration="250" />
+</RelativeLayout>

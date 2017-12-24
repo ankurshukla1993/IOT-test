@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="0x106000b" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <android.support.v7.widget.Toolbar android:id="@id/toolbar" android:background="@color/colorPrimary" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="?attr/actionBarSize" android:layout_alignParentTop="true" android:popupTheme="@style/ThemeOverlay.AppCompat.Light" android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+            <TextView android:textColor="@color/white" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/toolbar_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@r$string/add_medicine" android:textAlignment="center" />
+        </android.support.v7.widget.Toolbar>
+        <TextView android:textSize="20sp" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@r$id/txt_view_medicine_name" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text="@string/search_medicine" android:layout_below="@id/toolbar" />
+        <android.support.design.widget.TextInputLayout android:id="@r$id/txtinput_notes" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:layout_below="@r$id/txt_view_medicine_name">
+            <android.support.v7.widget.AppCompatEditText android:id="@id/notes_text" android:padding="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/notes" android:inputType="text|textCapCharacters|textCapWords|textCapSentences|textAutoCorrect|textAutoComplete|textMultiLine|textImeMultiLine|textNoSuggestions|textUri|textEmailAddress|textEmailSubject|textShortMessage|textLongMessage|textPersonName|textPostalAddress|textPassword|textVisiblePassword|textWebEditText|textFilter|textPhonetic|textWebEmailAddress|textWebPassword|phone" />
+        </android.support.design.widget.TextInputLayout>
+        <TableLayout android:orientation="horizontal" android:id="@r$id/fromDateLayout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:layout_marginBottom="16dp" android:layout_below="@r$id/txtinput_notes" android:layout_marginStart="16dp">
+            <TableRow android:layout_marginBottom="8dp">
+                <TextView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@r$id/txtFrom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="From:" android:drawableLeft="@r$drawable/ic_date_range_black_24dp" android:drawablePadding="5dp" />
+                <TextView android:textSize="16dp" android:id="@r$id/txtFromDate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:hint="Select Date" android:layout_marginStart="10dp" />
+            </TableRow>
+            <TableRow>
+                <TextView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="To:" android:drawableLeft="@r$drawable/ic_date_range_black_24dp" android:drawablePadding="5dp" />
+                <TextView android:textSize="16dp" android:id="@r$id/txtToDate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:hint="Select Date" android:layout_marginStart="10dp" />
+            </TableRow>
+        </TableLayout>
+        <android.support.v7.widget.RecyclerView android:id="@r$id/recyler_medcine_schedule" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="16dp" android:layout_below="@r$id/fromDateLayout" />
+        <TextView android:textSize="18sp" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@r$id/txt_no_reminder" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@r$string/add_reminder" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <android.support.design.widget.FloatingActionButton android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@r$id/fab_add_schedule" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/fab_margin" android:src="@r$drawable/ic_action_add" />
+</android.support.design.widget.CoordinatorLayout>

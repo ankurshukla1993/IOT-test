@@ -1,0 +1,11 @@
+package com.cooey.devices.vo;
+
+public enum DeviceType {
+    SPYHGOMANOMETER,
+    BODY_ANALYZER,
+    IHEALTH_BP5_MONITOR,
+    IHEALTH_PULSE_OXIMETER_3,
+    IHEALTH_BP7S_MONITOR,
+    IHEALTH_BG5_MONITOR,
+    NEWBPMETER
+}

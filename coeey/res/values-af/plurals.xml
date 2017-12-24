@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="daily">
+        <item quantity="one">Daagliks</item>
+        <item quantity="other">Elke %d dae</item>
+    </plurals>
+    <plurals name="endByCount">
+        <item quantity="one">; vir een keer</item>
+        <item quantity="other">; vir %d kere</item>
+    </plurals>
+    <plurals name="recurrence_end_count">
+        <item quantity="one">Vir %d geleentheid</item>
+        <item quantity="other">Vir %d geleenthede</item>
+    </plurals>
+    <plurals name="recurrence_interval_daily">
+        <item quantity="one">Elke %d dag</item>
+        <item quantity="other">Elke %d dae</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <item quantity="one">Elke %d maand</item>
+        <item quantity="other">Elke %d maande</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <item quantity="one">Elke %d week</item>
+        <item quantity="other">Elke %d weke</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <item quantity="one">Elke %d jaar</item>
+        <item quantity="other">Elke %d jaar</item>
+    </plurals>
+    <plurals name="weekly">
+        <item quantity="one">Weekliks op %2$s</item>
+        <item quantity="other">Elke %1$d weke op %2$s</item>
+    </plurals>
+</resources>

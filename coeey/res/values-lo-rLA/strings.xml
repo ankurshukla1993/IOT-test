@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="acessibility_recurrence_choose_end_date_description">ປ່ຽນວັນສິ້ນສຸດ</string>
+    <string name="cancel">ຍົກເລີກ</string>
+    <string name="day_picker_description">ຕາຕາລາງວັນທີເດືອນປີ</string>
+    <string name="deleted_key">%1$s ຖືກລຶບແລ້ວ</string>
+    <string name="endByDate">; ຈົນຮອດ %s</string>
+    <string name="every_weekday">ທຸກໆມື້ເຮັດວຽກ (ຈັນ–ສຸກ)</string>
+    <string name="item_is_selected">%1$s ຖືກເລືອກແລ້ວ</string>
+    <string name="monthly">ທຸກເດືອນ</string>
+    <string name="ok">ຕົກລົງ</string>
+    <string name="recurrence_end_continously">ຕະຫຼອດໄປ</string>
+    <string name="recurrence_end_count_label">ຕາມຈຳນວນເທື່ອຂອງການນັດໝາຍ</string>
+    <string name="recurrence_end_date">ຈົນຮອດ %s</string>
+    <string name="recurrence_end_date_label">ຈົນຮອດວັນທີ</string>
+    <string name="recurrence_month_pattern_by_day">ໃນມື້ດຽວກັນຂອງແຕ່ລະເດືອນ</string>
+    <string name="select_day">ເລືອກເດືອນ ແລະ ວັນ</string>
+    <string name="select_hours">ເລືອກ​ຊົ່ວ​ໂມງ</string>
+    <string name="select_minutes">ເລືອກນາ​ທີ</string>
+    <string name="select_year">ເລືອກ​ປີ</string>
+    <string name="year_picker_description">ລາຍການປີ</string>
+    <string name="yearly_plain">ປະຈໍາປີ</string>
+</resources>

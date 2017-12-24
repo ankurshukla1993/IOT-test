@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="acessibility_recurrence_choose_end_date_description">lõppkuupäeva muutmine</string>
+    <string name="cancel">Tühista</string>
+    <string name="day_picker_description">Päevad kuu ruudustikus</string>
+    <string name="deleted_key">%1$s on kustutatud</string>
+    <string name="endByDate">; kuni %s</string>
+    <string name="every_weekday">Igal tööpäeval (E–R)</string>
+    <string name="item_is_selected">%1$s on valitud</string>
+    <string name="monthly">Iga kuu</string>
+    <string name="ok">OK</string>
+    <string name="recurrence_end_continously">Igavesti</string>
+    <string name="recurrence_end_count_label">Sündmust korratakse</string>
+    <string name="recurrence_end_date">Kuni %s</string>
+    <string name="recurrence_end_date_label">Kuni kuupäevani</string>
+    <string name="recurrence_month_pattern_by_day">iga kuu samal päeval</string>
+    <string name="select_day">Kuu ja päeva valimine</string>
+    <string name="select_hours">Tundide valimine</string>
+    <string name="select_minutes">Minutite valimine</string>
+    <string name="select_year">Aasta valimine</string>
+    <string name="year_picker_description">Aastate loend</string>
+    <string name="yearly_plain">Iga aasta</string>
+</resources>

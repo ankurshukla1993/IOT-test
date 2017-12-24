@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_icon_mic" android:id="@id/button_mute" android:background="?attr/selectableItemBackgroundBorderless" android:title="Mute" android:showAsAction="always" />
+    <item android:icon="@drawable/ic_action_reconnect" android:id="@id/refresh_maya" android:background="?attr/selectableItemBackgroundBorderless" android:orderInCategory="90" android:title="Refresh" android:showAsAction="always" />
+</menu>

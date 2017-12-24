@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="acessibility_recurrence_choose_end_date_description">അവസാനിക്കുന്ന ദിവസം മാറ്റുക</string>
+    <string name="cancel">റദ്ദാക്കുക</string>
+    <string name="day_picker_description">മാസപ്രകാരമുള്ള ദിവസ ഗ്രിഡ്</string>
+    <string name="deleted_key">%1$s ഇല്ലാതാക്കി</string>
+    <string name="endByDate">; %s വരെ</string>
+    <string name="every_weekday">എല്ലാ പ്രവർത്തിദിനങ്ങളും (തിങ്കൾ–വെള്ളി)</string>
+    <string name="item_is_selected">%1$s തിരഞ്ഞെടുത്തു</string>
+    <string name="monthly">പ്രതിമാസം</string>
+    <string name="ok">ശരി</string>
+    <string name="recurrence_end_continously">എന്നന്നേയ്‌ക്കും</string>
+    <string name="recurrence_end_count_label">ഇവന്റുകൾ ആവർത്തിക്കേണ്ട എണ്ണം</string>
+    <string name="recurrence_end_date">%s വരെ</string>
+    <string name="recurrence_end_date_label">ഒരു തീയതി വരെ</string>
+    <string name="recurrence_month_pattern_by_day">ഓരോ മാസവും ഒരേ ദിവസം</string>
+    <string name="select_day">മാസവും ദിവസവും തിരഞ്ഞെടുക്കുക</string>
+    <string name="select_hours">മണിക്കൂർ തിരഞ്ഞെടുക്കുക</string>
+    <string name="select_minutes">മിനിറ്റ് തിരഞ്ഞെടുക്കുക</string>
+    <string name="select_year">വർഷം തിരഞ്ഞെടുക്കുക</string>
+    <string name="year_picker_description">വർഷങ്ങളുടെ ലിസ്റ്റ്</string>
+    <string name="yearly_plain">പ്രതിവർഷം</string>
+</resources>

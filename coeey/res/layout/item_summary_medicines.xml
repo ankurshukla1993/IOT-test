@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:tag="layout/item_summary_medicines_0" android:padding="20dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp"
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:weightSum="1.0"
+        <LinearLayout android:orientation="vertical" android:layout_width="UNKNOWN_DATA_0x2" android:layout_height="wrap_content" android:layout_weight="0.5">
+            <TextView android:textSize="12sp" android:textColor="#414141" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/activity_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@r$string/activity" />
+            <TextView android:textSize="15sp" android:textColor="@color/appgreen" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@r$id/activity_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5sp" android:layout_marginBottom="5sp" android:minHeight="80dp" />
+            <TextView android:textSize="12sp" android:textColor="#414141" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@r$id/activity_units" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@r$string/avg_day" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="UNKNOWN_DATA_0x2" android:layout_height="wrap_content" android:layout_weight="0.5">
+            <TextView android:textSize="12sp" android:textColor="#414141" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@r$id/mood_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mood" />
+            <ImageView android:textSize="18sp" android:textColor="@color/appgreen" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@r$id/mood_image" android:layout_width="UNKNOWN_DATA_0x5001" android:layout_height="UNKNOWN_DATA_0x5001" android:layout_marginTop="5sp" android:layout_marginBottom="5sp" android:minHeight="70dp" />
+            <TextView android:textSize="12sp" android:textColor="#414141" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@r$id/mood_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="-" />
+        </LinearLayout>
+    </LinearLayout>
+    <TextView android:textSize="12sp" android:textColor="#414141" android:id="@r$id/medicine_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="40dp" android:layout_marginBottom="20dp" android:text="@r$string/medicines" />
+    <LinearLayout android:orientation="horizontal" android:id="@r$id/medicine_container_1" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textColor="@color/appgreen" android:id="@r$id/medicine_name_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@r$string/acuspar" />
+        <TextView android:textColor="@color/appdark" android:id="@r$id/medicine_info_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@r$string/_1_time_a_day" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@r$id/medicine_container_2" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textColor="@color/appgreen" android:id="@r$id/medicine_name_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Acuspar" />
+        <TextView android:textColor="@color/appdark" android:id="@r$id/medicine_info_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=" - 1 Time a day" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@r$id/medicine_container_3" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textColor="@color/appgreen" android:id="@r$id/medicine_name_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Acuspar" />
+        <TextView android:textColor="@color/appdark" android:id="@r$id/medicine_info_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=" - 1 Time a day" />
+    </LinearLayout>
+</LinearLayout>

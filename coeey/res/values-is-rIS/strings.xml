@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="acessibility_recurrence_choose_end_date_description">breyta lokadegi</string>
+    <string name="cancel">Hætta við</string>
+    <string name="day_picker_description">Mánaðartafla með dögum</string>
+    <string name="deleted_key">%1$s eytt</string>
+    <string name="endByDate">, til %s</string>
+    <string name="every_weekday">Alla virka daga (mán.–fös.)</string>
+    <string name="item_is_selected">%1$s valið</string>
+    <string name="monthly">Mánaðarlega</string>
+    <string name="ok">Í lagi</string>
+    <string name="recurrence_end_continously">Ótímabundið</string>
+    <string name="recurrence_end_count_label">Fyrir marga viðburði</string>
+    <string name="recurrence_end_date">Til %s</string>
+    <string name="recurrence_end_date_label">Til</string>
+    <string name="recurrence_month_pattern_by_day">sama dag í hverjum mánuði</string>
+    <string name="select_day">Veldu mánuð og dag</string>
+    <string name="select_hours">Veldu klukkustundir</string>
+    <string name="select_minutes">Veldu mínútur</string>
+    <string name="select_year">Veldu ár</string>
+    <string name="year_picker_description">Áralisti</string>
+    <string name="yearly_plain">Árlega</string>
+</resources>

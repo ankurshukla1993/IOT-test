@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="80" android:versionName="3.13" package="com.biz.health.cooey_app">
+    <uses-sdk android:minSdkVersion="18" android:targetSdkVersion="26" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <permission android:name="com.biz.health.cooey_app.permission.C2D_MESSAGE" android:protectionLevel="signature|signatureOrSystem" />
+    <uses-permission android:name="com.biz.health.cooey_app.permission.C2D_MESSAGE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+    <uses-feature android:glEsVersion="20000" android:required="true" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-feature android:name="android.hardware.bluetooth_le" android:required="true" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <application android:theme="@style/AppTheme" android:label="@string/app_name" android:icon="@mipmap/ic_launcher" android:name="com.biz.health.cooey_app.PatientApplication" android:allowBackup="true" android:hardwareAccelerated="true" android:largeHeap="true" android:supportsRtl="true">
+        <activity android:name="com.biz.health.cooey_app.MainActivity" android:launchMode="singleInstance" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/AppTheme" android:name="com.biz.health.cooey_app.account.LoginMainActivity" />
+        <activity android:theme="@style/AppTheme" android:name="com.biz.health.cooey_app.ActivityCareplanSummary" />
+        <activity android:theme="@style/AppTheme" android:label="@r$string/title_activity_bp" android:name="com.biz.health.cooey_app.vitals.BPActivity" />
+        <activity android:theme="@style/AppTheme" android:label="@r$string/title_activity_glucose" android:name="com.biz.health.cooey_app.vitals.GlucoseActivity" />
+        <service android:name="com.biz.health.cooey_app.notifications.CooeyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name="com.biz.health.cooey_app.notifications.CooeyFirebaseInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <activity android:label="@r$string/screen_summary" android:name="com.biz.health.cooey_app.summary.SummaryActivity" android:parentActivityName="com.biz.health.cooey_app.MainActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.biz.health.cooey_app.MainActivity" />
+        </activity>
+        <activity android:theme="@r$style/ActionBarAppTheme" android:label="@r$string/title_activity_settings" android:name="com.biz.health.cooey_app.PreferencesActivity" />
+        <activity android:name="com.biz.health.cooey_app.account.ProfileActivity" />
+        <activity android:name="com.biz.health.cooey_app.secondary_vital.MedicalProfileActivity" />
+        <activity android:name="com.biz.health.cooey_app.secondary_vital.AddDynamicVitalActivity" />
+        <activity android:name="com.biz.health.cooey_app.medicine.MedicineSearchActivity" />
+        <activity android:name="com.biz.health.cooey_app.medicine.ViewAllMedicinesActivity" />
+        <activity android:name="com.biz.health.cooey_app.diet.PatientDietList" />
+        <receiver android:name="com.biz.health.cooey_app.medicine.MedicineReminderBroadcastReciever">
+            <intent-filter>
+                <action android:name="MedicineReminder" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>
+        <meta-data android:name="io.fabric.ApiKey" android:value="f7962edd5d43b6d064e1c2bbd1ef1c246d77ea7b" />
+        <activity android:theme="@style/FinestWebViewTheme.Light" android:name="com.thefinestartist.finestwebview.FinestWebViewActivity" android:screenOrientation="sensor" android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity android:name="com.biz.health.cooey_app.NewMessagesActivity" />
+        <activity android:theme="@style/AppTheme" android:label="@r$string/title_activity_external_id_login" android:name="com.biz.health.cooey_app.account.ExternalIdLogin" />
+        <receiver android:name="com.biz.health.cooey_app.broadcast_reciever.VitalsBroadCastReciver">
+            <intent-filter>
+                <action android:name="VitalValues" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>
+        <activity android:theme="@style/AppTheme" android:label="@r$string/title_activity_secondary_vitals" android:name="com.biz.health.cooey_app.secondary_vital.SecondaryVitalsActivity" />
+        <activity android:name="com.biz.health.cooey_app.broadcast_reciever.DeviceValuesActivity" />
+        <activity android:theme="@style/AppTheme" android:label="@r$string/title_activity_action_items" android:name="com.biz.health.cooey_app.careplan.actions.ActionItemsActivity" />
+        <activity android:name="com.biz.health.cooey_app.RescheduleEventActivity" />
+        <activity android:name="com.biz.health.cooey_app.CaretakerCalendarActivity" />
+        <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@r$string/facebook_app_id" />
+        <activity android:label="@string/app_name" android:name="com.facebook.FacebookActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize" />
+        <activity android:name="com.facebook.CustomTabActivity" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="@r$string/fb_login_protocol_scheme" />
+            </intent-filter>
+        </activity>
+        <activity android:label="@r$string/login" android:name="com.biz.health.cooey_app.account.CooeyLoginActivity" android:screenOrientation="portrait" />
+        <activity android:label="@r$string/register" android:name="com.biz.health.cooey_app.account.RegisterCooeyUserActivity" android:screenOrientation="portrait" />
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
+        <service android:name="com.evernote.android.job.v21.PlatformJobService" android:permission="android.permission.BIND_JOB_SERVICE" android:exported="false" />
+        <service android:name="com.evernote.android.job.v14.PlatformAlarmService" android:exported="false" />
+        <receiver android:name="com.evernote.android.job.v14.PlatformAlarmReceiver" android:exported="false">
+            <intent-filter>
+                <action android:name="com.evernote.android.job.v14.RUN_JOB" />
+                <action android:name="net.vrallev.android.job.v14.RUN_JOB" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.evernote.android.job.JobBootReceiver" android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+            </intent-filter>
+        </receiver>
+        <service android:name="com.evernote.android.job.gcm.PlatformGcmService" android:permission="com.google.android.gms.permission.BIND_NETWORK_TASK_SERVICE" android:enabled="false" android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.android.gms.gcm.ACTION_TASK_READY" />
+            </intent-filter>
+        </service>
+        <service android:name="com.evernote.android.job.JobRescheduleService" android:exported="false" />
+        <service android:name="com.google.firebase.messaging.FirebaseMessagingService" android:exported="true">
+            <intent-filter android:priority="-500">
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <activity android:theme="@*android:style/Theme.Translucent.NoTitleBar" android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity" android:exported="false" android:excludeFromRecents="true" />
+        <service android:name="com.google.android.gms.auth.api.signin.RevocationBoundService" android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" android:exported="true" />
+        <receiver android:name="com.google.android.gms.measurement.AppMeasurementReceiver" android:enabled="true" android:exported="false" />
+        <receiver android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver" android:permission="android.permission.INSTALL_PACKAGES" android:enabled="true" android:exported="true">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+        <service android:name="com.google.android.gms.measurement.AppMeasurementService" android:enabled="true" android:exported="false" />
+        <service android:name="com.google.android.gms.measurement.AppMeasurementJobService" android:permission="android.permission.BIND_JOB_SERVICE" android:enabled="true" android:exported="false" />
+        <receiver android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver" android:permission="com.google.android.c2dm.permission.SEND" android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <category android:name="com.biz.health.cooey_app" />
+            </intent-filter>
+        </receiver>
+        <service android:name="com.google.firebase.iid.FirebaseInstanceIdService" android:exported="true">
+            <intent-filter android:priority="-500">
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <provider android:name="com.google.firebase.provider.FirebaseInitProvider" android:exported="false" android:authorities="com.biz.health.cooey_app.firebaseinitprovider" android:initOrder="100" />
+        <activity android:theme="@*android:style/Theme.Translucent.NoTitleBar" android:name="com.google.android.gms.common.api.GoogleApiActivity" android:exported="false" />
+        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+        <meta-data android:name="android.support.VERSION" android:value="26.1.0" />
+        <activity android:label="@string/title_activity_devices" android:name="com.cooey.devices.DevicesActivity" />
+        <activity android:name="com.cooey.devices.ScanDevicesActivity" />
+        <activity android:label="@string/title_activity_device_select" android:name="com.cooey.devices.selector.DeviceSelectActivity" />
+        <activity android:name="com.cooey.devices.bp_monitor.BPDeviceActivity" android:screenOrientation="portrait" />
+        <activity android:label="@string/title_activity_body_analyzer_device" android:name="com.cooey.devices.body_analyzer.BodyAnalyzerDeviceActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.cooey.devices.bp_monitor.BPDeviceInputActvity" android:screenOrientation="portrait" />
+        <activity android:name="com.cooey.devices.body_analyzer.BodyAnalyzerDeviceInputActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.cooey.devices.glucometer.GlucometerActivityRead" android:screenOrientation="portrait" />
+        <activity android:name="com.cooey.devices.bpmeter.BpMeterScanActivity" android:screenOrientation="portrait" android:parentActivityName="com.cooey.devices.bpmeter.VoiceBpMonitorActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".bpmeter.VoiceBpMonitorActivity" />
+        </activity>
+        <activity android:name="com.cooey.devices.bpmeter.VoiceBpMonitorActivity" android:screenOrientation="portrait" android:parentActivityName="com.cooey.devices.DevicesActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".DevicesActivity" />
+        </activity>
+        <service android:name="com.cooey.devices.bpmeter.BluetoothLeService" android:enabled="true" />
+        <activity android:theme="@style/Theme.AppCompat.Light.NoActionBar" android:label="@string/title_activity_ihealth_devices_scan" android:name="com.ihealth.devices.IHealthDevicesScanActivity" />
+        <activity android:name="com.cooey.android.users.old.activities.UserProfileActivity" />
+        <activity android:name="com.cooey.android.users.old.activities.AllMedsActivity" />
+        <activity android:name="com.cooey.android.users.old.activities.CarePlanTodoActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.cooey.android.users.old.activities.AddDynamicVitalActivity" />
+        <activity android:name="com.cooey.android.users.old.activities.ChangePasswordActivity" />
+        <activity android:name="com.cooey.maya.MayaActivity" />
+        <activity android:theme="@style/AppTheme.NoActionBar" android:label="@string/title_activity_messages" android:name="com.cooey.messaging.MessagesActivity" />
+        <activity android:name="com.cooey.android.video_call.VideoCallActivity" />
+        <activity android:name="com.cooey.android.video_call.CallRingActivity" />
+        <activity android:label="Medical Reports" android:name="com.cooey.android.medical_reports.MedicalReportActivity" />
+        <meta-data android:name="preloaded_fonts" android:resource="@array/preloaded_fonts" />
+        <activity android:theme="@style/AppTheme.NoActionBar" android:label="@string/title_activity_vital_list" android:name="com.cooey.android.vitals.VitalListActivity" />
+        <activity android:label="@string/title_activity_vital_input" android:name="com.cooey.android.vitals.VitalInputActivity" />
+        <meta-data android:name="android.arch.persistence.room.rxjava2.VERSION" android:value="27.0.0-SNAPSHOT" />
+        <meta-data android:name="android.arch.persistence.room.VERSION" android:value="27.0.0-SNAPSHOT" />
+        <meta-data android:name="android.arch.persistence.db.framework.VERSION" android:value="27.0.0-SNAPSHOT" />
+        <meta-data android:name="android.arch.persistence.db.VERSION" android:value="27.0.0-SNAPSHOT" />
+        <provider android:name="android.arch.lifecycle.LifecycleRuntimeTrojanProvider" android:exported="false" android:multiprocess="true" android:authorities="com.biz.health.cooey_app.lifecycle-trojan" />
+        <meta-data android:name="android.arch.core.VERSION" android:value="27.0.0-SNAPSHOT" />
+        <meta-data android:name="android.arch.lifecycle.VERSION" android:value="27.0.0-SNAPSHOT" />
+    </application>
+</manifest>

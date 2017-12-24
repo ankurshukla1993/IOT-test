@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="acessibility_recurrence_choose_end_date_description">समाप्त हुने मिति परिवर्तन गर्नुहोस्</string>
+    <string name="cancel">रद्द गर्नुहोस्</string>
+    <string name="day_picker_description">दिनहरुको महिना ग्रिड</string>
+    <string name="deleted_key">%1$s हटाइयो</string>
+    <string name="endByDate">; %sसम्म</string>
+    <string name="every_weekday">प्रत्यरक हप्ताका दिन (सोमबार-शुक्रबार)</string>
+    <string name="item_is_selected">%1$s चयन गरियो</string>
+    <string name="monthly">मासिक रूपमा</string>
+    <string name="ok">ठिक छ</string>
+    <string name="recurrence_end_continously">सदाका लागि</string>
+    <string name="recurrence_end_count_label">केही घटनाहरूको नम्बर लागि</string>
+    <string name="recurrence_end_date">%sसम्म</string>
+    <string name="recurrence_end_date_label">यस मितिसम्म</string>
+    <string name="recurrence_month_pattern_by_day">प्रत्येक महिनाको उही दिन</string>
+    <string name="select_day">महिना र दिन चयन गर्नुहोस्</string>
+    <string name="select_hours">घण्टा चयन गर्नुहोस्</string>
+    <string name="select_minutes">मिनेट चयन गर्नुहोस्</string>
+    <string name="select_year">वर्ष चयन गर्नुहोस्</string>
+    <string name="year_picker_description">वर्ष सूची</string>
+    <string name="yearly_plain">वार्षिक रूपमा</string>
+</resources>

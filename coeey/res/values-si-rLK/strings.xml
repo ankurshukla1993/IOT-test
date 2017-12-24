@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="acessibility_recurrence_choose_end_date_description">අවසන්වන දිනය වෙනස් කරන්න</string>
+    <string name="cancel">අවලංගු කරන්න</string>
+    <string name="day_picker_description">දින ජාලයකින් මාසය</string>
+    <string name="deleted_key">%1$s මකා දමන ලදි</string>
+    <string name="endByDate">; %s තෙක්</string>
+    <string name="every_weekday">සෑම සතියේ දිනකම (සඳු–සිකු)</string>
+    <string name="item_is_selected">%1$s තෝරාගෙන ඇත</string>
+    <string name="monthly">මාසිකව</string>
+    <string name="ok">හරි</string>
+    <string name="recurrence_end_continously">සදහටම</string>
+    <string name="recurrence_end_count_label">සිදුවීම් ගණනක් සඳහා</string>
+    <string name="recurrence_end_date">%s තෙක්</string>
+    <string name="recurrence_end_date_label">දිනයක් දක්වා</string>
+    <string name="recurrence_month_pattern_by_day">සෑම මසකම එකම දිනයේ</string>
+    <string name="select_day">මාසය සහ දිනය තෝරන්න</string>
+    <string name="select_hours">පැය තෝරන්න</string>
+    <string name="select_minutes">මිනිත්තු තෝරන්න</string>
+    <string name="select_year">වසර තෝරන්න</string>
+    <string name="year_picker_description">වසර ලැයිස්තුව</string>
+    <string name="yearly_plain">වාර්ෂිකව</string>
+</resources>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="recurrence_freq">
+        <item>PHINDA NSUKU ZONKE</item>
+        <item>PHINDA NGEVIKI</item>
+        <item>PHINDA NGENYANGA</item>
+        <item>PHINDA NGONYAKA</item>
+    </array>
+    <array name="repeat_by_nth_fri">
+        <item>njalo ngoLwesihlanu wokuqala</item>
+        <item>njalo ngoLwesihlanu wesibili</item>
+        <item>njalo ngoLwesihlanu wesithathu</item>
+        <item>njalo ngoLwesihlanu wesine</item>
+        <item>njalo ngoLwesihlanu wokugcina</item>
+    </array>
+    <array name="repeat_by_nth_mon">
+        <item>njalo ngoMsombuluko wokuqala</item>
+        <item>njalo ngoMsombuluko wesibili</item>
+        <item>njalo ngoMsombuluko wesithathu</item>
+        <item>njalo ngoMsombuluko wesine</item>
+        <item>njalo ngoMsombuluko wokugcina</item>
+    </array>
+    <array name="repeat_by_nth_sat">
+        <item>njalo ngoMgqibelo wokuqala</item>
+        <item>njalo ngoMgqibelo wesibili</item>
+        <item>njalo ngoMgqibelo wesithathu</item>
+        <item>njalo ngoMgqibelo wesine</item>
+        <item>njalo ngoMgqibelo wokugcina</item>
+    </array>
+    <array name="repeat_by_nth_sun">
+        <item>njalo ngeSonto lokuqala</item>
+        <item>njalo ngeSonto lesibili</item>
+        <item>njalo ngeSonto lesithathu</item>
+        <item>njalo ngeSonto lesine</item>
+        <item>njalo ngeSonto lokugcina</item>
+    </array>
+    <array name="repeat_by_nth_thurs">
+        <item>njalo ngoLwesine wokuqala</item>
+        <item>njalo ngoLwesine wesibili</item>
+        <item>njalo ngoLwesine wesithathu</item>
+        <item>njalo ngoLwesine wesine</item>
+        <item>njalo ngoLwesine wokugcina</item>
+    </array>
+    <array name="repeat_by_nth_tues">
+        <item>njalo ngoLwesibili wokuqala</item>
+        <item>njalo ngoLwesibili wesibili</item>
+        <item>njalo ngoLwesibili wesithathu</item>
+        <item>njalo ngoLwesibili wesine</item>
+        <item>njalo ngoLwesibili wokugcina</item>
+    </array>
+    <array name="repeat_by_nth_wed">
+        <item>njalo ngoLwesithathu wokuqala</item>
+        <item>njalo ngoLwesithathu wesibili</item>
+        <item>njalo ngoLwesithathu wesithathu</item>
+        <item>njalo ngoLwesithathu wesine</item>
+        <item>njalo ngoLwesithathu wokugcina</item>
+    </array>
+</resources>

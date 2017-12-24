@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" android:tag="layout/activity_devices_0" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <android.support.design.widget.AppBarLayout android:theme="@style/AppBarOverlay" android:id="@id/app_bar" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f07004d">
+        <android.support.design.widget.CollapsingToolbarLayout android:id="@id/toolbar_layout" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent" android:contentScrim="?attr/colorPrimary" android:layout_scrollFlags="3">
+            <android.support.v7.widget.Toolbar android:id="@id/toolbar" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f040006" android:layout_collapseMode="1" android:popupTheme="@style/PopupOverlay" />
+        </android.support.design.widget.CollapsingToolbarLayout>
+    </android.support.design.widget.AppBarLayout>
+    <android.support.v7.widget.RecyclerView android:id="@id/deviceReclerView" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@id/bp_card_view" android:layout_behavior="@string/appbar_scrolling_view_behavior" />
+    <android.support.design.widget.FloatingActionButton android:id="@id/fab" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/fab_margin" android:layout_anchor="@id/app_bar" android:layout_anchorGravity="800055" />
+</android.support.design.widget.CoordinatorLayout>

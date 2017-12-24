@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <animator name="card_flip_left_in">res/animator/card_flip_left_in.xml</animator>
+    <animator name="card_flip_left_out">res/animator/card_flip_left_out.xml</animator>
+    <animator name="card_flip_right_in">res/animator/card_flip_right_in.xml</animator>
+    <animator name="card_flip_right_out">res/animator/card_flip_right_out.xml</animator>
+    <animator name="design_appbar_state_list_animator">res/animator-v21/design_appbar_state_list_animator.xml</animator>
+</resources>

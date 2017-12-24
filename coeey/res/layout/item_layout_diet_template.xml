@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="10dp">
+    <LinearLayout android:orientation="vertical" android:id="@r$id/linear_root_diet" android:paddingBottom="5dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@r$id/rel_diet_details_sun" android:padding="5dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@r$id/rel_header">
+            <TextView android:textSize="18dp" android:textColor="0x106000c" android:id="@r$id/txt_diet_recommendation" android:paddingLeft="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textSize="16sp" android:id="@r$id/txt_tag_name" android:paddingLeft="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:layout_below="@r$id/txt_diet_recommendation" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@r$id/rel_diet_details_carbs_fiber" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:layout_marginBottom="2dp"
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="3.0"
+                <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0"
+                    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <ImageView android:layout_width="UNKNOWN_DATA_0x1401" android:layout_height="UNKNOWN_DATA_0x1401" android:src="@r$drawable/imv_fiber" />
+                        <TextView android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:paddingLeft="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Fiber" />
+                    </LinearLayout>
+                    <TextView android:textStyle="bold" android:id="@r$id/txt_fibre" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                </LinearLayout>
+                <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0"
+                    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <ImageView android:layout_width="UNKNOWN_DATA_0x1401" android:layout_height="UNKNOWN_DATA_0x1401" android:src="@r$drawable/imv_calories" />
+                        <TextView android:paddingLeft="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Calories" />
+                    </LinearLayout>
+                    <TextView android:textStyle="bold" android:id="@r$id/txt_calorie" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                </LinearLayout>
+                <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0"
+                    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <ImageView android:layout_width="UNKNOWN_DATA_0x1401" android:layout_height="UNKNOWN_DATA_0x1401" android:src="@r$drawable/imv_carbs" />
+                        <TextView android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:paddingLeft="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Carbs" />
+                    </LinearLayout>
+                    <TextView android:textStyle="bold" android:id="@r$id/txt_carbs" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>

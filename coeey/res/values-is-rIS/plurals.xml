@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="daily">
+        <item quantity="one">Daglega</item>
+        <item quantity="other">Á %d daga fresti</item>
+    </plurals>
+    <plurals name="endByCount">
+        <item quantity="one">, í eitt skipti</item>
+        <item quantity="other">, %d sinnum</item>
+    </plurals>
+    <plurals name="recurrence_end_count">
+        <item quantity="one">Fyrir %d viðburði</item>
+        <item quantity="other">Fyrir %d viðburði</item>
+    </plurals>
+    <plurals name="recurrence_interval_daily">
+        <item quantity="one">Á %d dags fresti</item>
+        <item quantity="other">Á %d daga fresti</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <item quantity="one">Á %d mánaðar fresti</item>
+        <item quantity="other">Á %d mánaða fresti</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <item quantity="one">Á %d viku fresti</item>
+        <item quantity="other">Á %d vikna fresti</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <item quantity="one">Á %d árs fresti</item>
+        <item quantity="other">Á %d ára fresti</item>
+    </plurals>
+    <plurals name="weekly">
+        <item quantity="one">Vikulega á %2$s</item>
+        <item quantity="other">Á %1$d þriggja vikna fresti á %2$s</item>
+    </plurals>
+</resources>

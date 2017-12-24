@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="recurrence_freq">
+        <item>HERHAAL DAAGLIKS</item>
+        <item>HERHAAL WEEKLIKS</item>
+        <item>HERHAAL MAANDELIKS</item>
+        <item>HERHAAL JAARLIKS</item>
+    </array>
+    <array name="repeat_by_nth_fri">
+        <item>op elke eerste Vrydag</item>
+        <item>op elke tweede Vrydag</item>
+        <item>op elke derde Vrydag</item>
+        <item>op elke vierde Vrydag</item>
+        <item>op elke laaste Vrydag</item>
+    </array>
+    <array name="repeat_by_nth_mon">
+        <item>op elke eerste Maandag</item>
+        <item>op elke tweede Maandag</item>
+        <item>op elke derde Maandag</item>
+        <item>op elke vierde Maandag</item>
+        <item>op elke laaste Maandag</item>
+    </array>
+    <array name="repeat_by_nth_sat">
+        <item>op elke eerste Saterdag</item>
+        <item>op elke tweede Saterdag</item>
+        <item>op elke derde Saterdag</item>
+        <item>op elke vierde Saterdag</item>
+        <item>op elke laaste Saterdag</item>
+    </array>
+    <array name="repeat_by_nth_sun">
+        <item>op elke eerste Sondag</item>
+        <item>op elke tweede Sondag</item>
+        <item>op elke derde Sondag</item>
+        <item>op elke vierde Sondag</item>
+        <item>op elke laaste Sondag</item>
+    </array>
+    <array name="repeat_by_nth_thurs">
+        <item>op elke eerste Donderdag</item>
+        <item>op elke tweede Donderdag</item>
+        <item>op elke derde Donderdag</item>
+        <item>op elke vierde Donderdag</item>
+        <item>op elke laaste Donderdag</item>
+    </array>
+    <array name="repeat_by_nth_tues">
+        <item>op elke eerste Dinsdag</item>
+        <item>op elke tweede Dinsdag</item>
+        <item>op elke derde Dinsdag</item>
+        <item>op elke vierde Dinsdag</item>
+        <item>op elke laaste Dinsdag</item>
+    </array>
+    <array name="repeat_by_nth_wed">
+        <item>op elke eerste Woensdag</item>
+        <item>op elke tweede Woensdag</item>
+        <item>op elke derde Woensdag</item>
+        <item>op elke vierde Woensdag</item>
+        <item>op elke laaste Woensdag</item>
+    </array>
+</resources>

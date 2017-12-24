@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/llMainContentHolder" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <include android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" layout="@layout/sublime_date_picker" />
+        <include android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" layout="@layout/sublime_time_picker" />
+        <com.appeaser.sublimepickerlibrary.common.ButtonLayout android:id="@id/button_layout" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <com.appeaser.sublimepickerlibrary.recurrencepicker.SublimeRecurrencePicker android:id="@id/repeat_option_picker" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</merge>

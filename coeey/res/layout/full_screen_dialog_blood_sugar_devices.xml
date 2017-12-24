@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <android.support.v7.widget.Toolbar android:id="@id/toolbar" android:background="@color/colorPrimary" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="?attr/actionBarSize" android:layout_alignParentTop="true" android:popupTheme="@style/ThemeOverlay.AppCompat.Light" android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+        <TextView android:textColor="0x106000b" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/toolbar_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/blood_sugar" android:textAlignment="center" />
+    </android.support.v7.widget.Toolbar>
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:padding="10dp" android:layout_width="match_parent" android:layout_height="wrap_content"
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:weightSum="2.0">
+                <android.support.design.widget.TextInputLayout android:id="@id/bloodSugarTextInput" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="10dp" android:layout_marginRight="10dp" android:hint="@string/blood_sugar">
+                    <EditText android:textSize="20sp" android:textStyle="bold" android:id="@id/addBloodSugarText" android:padding="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/blood_sugar" android:inputType="textCapWords|number|numberSigned|numberDecimal|numberPassword|phone" />
+                </android.support.design.widget.TextInputLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/noteLinearLayout" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <android.support.design.widget.TextInputLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="20dp" android:layout_marginRight="10dp">
+                    <android.support.v7.widget.AppCompatEditText android:id="@id/notes_text" android:padding="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/notes" android:inputType="text|textCapCharacters|textCapWords|textCapSentences|textAutoCorrect|textAutoComplete|textMultiLine|textImeMultiLine|textNoSuggestions|textUri|textEmailAddress|textEmailSubject|textShortMessage|textLongMessage|textPersonName|textPostalAddress|textPassword|textVisiblePassword|textWebEditText|textFilter|textPhonetic|textWebEmailAddress|textWebPassword|phone" />
+                </android.support.design.widget.TextInputLayout>
+                <RelativeLayout android:orientation="horizontal" android:id="@id/timeLinearLayout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp">
+                    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentLeft="true">
+                        <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:textStyle="bold" android:id="@id/helpText" android:padding="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:text="@string/time" />
+                        <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:id="@id/timeText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:hint="@r$string/_25_nov_12_13_am_" />
+                    </LinearLayout>
+                    <TextView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:padding="5dp" android:layout_width="UNKNOWN_DATA_0x5001" android:layout_height="wrap_content" android:layout_marginRight="15dp" android:text="@string/edit" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:textAlignment="center" />
+                </RelativeLayout>
+            </LinearLayout>
+            <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:textStyle="bold" android:padding="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="15dp" android:text="@string/mood" />
+            <RadioGroup android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="6dp">
+                <RadioButton android:id="@id/happy_mood" android:background="@drawable/happy_selector" android:clickable="true" android:layout_width="UNKNOWN_DATA_0x6401" android:layout_height="UNKNOWN_DATA_0x6401" android:layout_marginLeft="10dp" android:button="0x0" android:layout_weight="0.0" />
+                <RadioButton android:id="@id/sad_mood" android:background="@drawable/sad_selector" android:layout_width="UNKNOWN_DATA_0x6401" android:layout_height="UNKNOWN_DATA_0x6401" android:layout_marginLeft="10dp" android:button="0x0" />
+                <RadioButton android:id="@id/indifferent_mood" android:background="@drawable/indifferent_selector" android:layout_width="UNKNOWN_DATA_0x6401" android:layout_height="UNKNOWN_DATA_0x6401" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:button="0x0" />
+            </RadioGroup>
+            <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:textStyle="bold" android:padding="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="5dp" android:text="@string/context" />
+            <RadioGroup android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="6dp" android:layout_marginBottom="10dp">
+                <RadioButton android:id="@id/after_food" android:background="@drawable/ppbs_selector" android:layout_width="UNKNOWN_DATA_0x6401" android:layout_height="UNKNOWN_DATA_0x6401" android:layout_marginLeft="10dp" android:button="0x0" />
+                <RadioButton android:id="@id/before_food" android:background="@drawable/fbs_selector" android:layout_width="UNKNOWN_DATA_0x6401" android:layout_height="UNKNOWN_DATA_0x6401" android:layout_marginLeft="10dp" android:button="0x0" />
+                <RadioButton android:id="@id/random_time" android:background="@drawable/random_selector" android:layout_width="UNKNOWN_DATA_0x6401" android:layout_height="UNKNOWN_DATA_0x6401" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:button="0x0" />
+            </RadioGroup>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

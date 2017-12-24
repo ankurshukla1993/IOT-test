@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.appeaser.sublimepickerlibrary.datepicker.PickerViewAnimator xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/animator" android:layout_width="match_parent" android:layout_height="wrap_content" android:measureAllChildren="true" android:inAnimation="@anim/sp_date_picker_fade_in" android:outAnimation="@anim/sp_date_picker_fade_out">
+    <com.appeaser.sublimepickerlibrary.datepicker.DayPickerView android:id="@id/date_picker_day_picker" android:tag="@string/sublime_date_picker_tag" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <com.appeaser.sublimepickerlibrary.datepicker.YearPickerView android:id="@id/date_picker_year_picker" android:layout_width="match_parent" android:layout_height="match_parent" android:scrollIndicators="2" />
+</com.appeaser.sublimepickerlibrary.datepicker.PickerViewAnimator>

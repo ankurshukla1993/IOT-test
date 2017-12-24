@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="acessibility_recurrence_choose_end_date_description">ముగింపు తేదీని మార్చండి</string>
+    <string name="cancel">రద్దు చేయండి</string>
+    <string name="day_picker_description">రోజుల యొక్క నెల గ్రిడ్</string>
+    <string name="deleted_key">%1$s తొలగించబడింది</string>
+    <string name="endByDate">; %s వరకు</string>
+    <string name="every_weekday">ప్రతి వారపురోజు (సోమ–శుక్ర)</string>
+    <string name="item_is_selected">%1$s ఎంచుకోబడింది</string>
+    <string name="monthly">ప్రతి నెల</string>
+    <string name="ok">సరే</string>
+    <string name="recurrence_end_continously">ఎప్పటికీ</string>
+    <string name="recurrence_end_count_label">ఇన్ని ఈవెంట్‌లకు</string>
+    <string name="recurrence_end_date">%s వరకు</string>
+    <string name="recurrence_end_date_label">ఒక తేదీ వరకు</string>
+    <string name="recurrence_month_pattern_by_day">ప్రతి నెల అదే రోజున</string>
+    <string name="select_day">నెల మరియు రోజును ఎంచుకోండి</string>
+    <string name="select_hours">గంటలను ఎంచుకోండి</string>
+    <string name="select_minutes">నిమిషాలను ఎంచుకోండి</string>
+    <string name="select_year">సంవత్సరాన్ని ఎంచుకోండి</string>
+    <string name="year_picker_description">సంవత్సర జాబితా</string>
+    <string name="yearly_plain">ప్రతి సంవత్సరం</string>
+</resources>

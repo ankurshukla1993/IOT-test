@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_behavior="@string/appbar_scrolling_view_behavior">
+    <chatkit.messages.MessagesList android:id="@id/messagesList" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@id/ll_input" android:incomingAvatarHeight="56dp" android:incomingAvatarWidth="56dp" android:incomingBubbleDrawable="@drawable/bg_custom_incoming_message" android:outcomingBubbleDrawable="@drawable/bg_custom_outcoming_message" android:outcomingTimeTextColor="@color/gray_dark_transparent" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/ll_input" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="2.0" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true">
+        <ImageView android:id="@id/imv_speech" android:background="?attr/selectableItemBackgroundBorderless" android:visibility="gone" android:clickable="true" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:src="@drawable/imv_mircophone" android:scaleType="center" android:layout_weight="0.3" />
+        <chatkit.messages.MessageInput android:id="@id/input" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="2.0" android:inputButtonBackground="@drawable/bg_custom_layout_send" android:inputButtonIcon="@drawable/ic_send_selector" android:inputHint="@string/hint_enter_a_message" />
+    </LinearLayout>
+</RelativeLayout>

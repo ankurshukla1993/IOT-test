@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="daily">
+        <item quantity="one">Ημερησίως</item>
+        <item quantity="other">Κάθε %d ημέρες</item>
+    </plurals>
+    <plurals name="endByCount">
+        <item quantity="one">; για μία φορά</item>
+        <item quantity="other">; για %d φορές</item>
+    </plurals>
+    <plurals name="recurrence_end_count">
+        <item quantity="one">Για %d συμβάν</item>
+        <item quantity="other">Για %d συμβάντα</item>
+    </plurals>
+    <plurals name="recurrence_interval_daily">
+        <item quantity="one">Κάθε %d ημέρα</item>
+        <item quantity="other">Κάθε %d ημέρες</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <item quantity="one">Κάθε %d μήνα</item>
+        <item quantity="other">Κάθε %d μήνες</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <item quantity="one">Κάθε %d εβδομάδα</item>
+        <item quantity="other">Κάθε %d εβδομάδες</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <item quantity="one">Κάθε %d έτος</item>
+        <item quantity="other">Κάθε %d έτη</item>
+    </plurals>
+    <plurals name="weekly">
+        <item quantity="one">Κάθε εβδομάδα, μέρα %2$s</item>
+        <item quantity="other">Κάθε εβδομάδες %1$d, μέρες %2$s</item>
+    </plurals>
+</resources>

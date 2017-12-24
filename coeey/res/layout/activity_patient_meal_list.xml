@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include layout="@r$layout/toolbar" />
+    <ProgressBar android:id="@r$id/pb_diet" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <include layout="@layout/error_layout_user" />
+    </RelativeLayout>
+    <android.support.v7.widget.RecyclerView android:id="@r$id/rev_meal_list" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@id/toolbar" />
+</RelativeLayout>

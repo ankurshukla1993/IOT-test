@@ -1,0 +1,43 @@
+package com.google.android.flexbox;
+
+public final class R$attr {
+    public static final int alignContent = 2130968622;
+    public static final int alignItems = 2130968623;
+    public static final int dividerDrawable = 2130968853;
+    public static final int dividerDrawableHorizontal = 2130968854;
+    public static final int dividerDrawableVertical = 2130968855;
+    public static final int fastScrollEnabled = 2130968912;
+    public static final int fastScrollHorizontalThumbDrawable = 2130968913;
+    public static final int fastScrollHorizontalTrackDrawable = 2130968914;
+    public static final int fastScrollVerticalThumbDrawable = 2130968915;
+    public static final int fastScrollVerticalTrackDrawable = 2130968916;
+    public static final int flexDirection = 2130968924;
+    public static final int flexWrap = 2130968925;
+    public static final int font = 2130968958;
+    public static final int fontProviderAuthority = 2130968960;
+    public static final int fontProviderCerts = 2130968961;
+    public static final int fontProviderFetchStrategy = 2130968962;
+    public static final int fontProviderFetchTimeout = 2130968963;
+    public static final int fontProviderPackage = 2130968964;
+    public static final int fontProviderQuery = 2130968965;
+    public static final int fontStyle = 2130968966;
+    public static final int fontWeight = 2130968967;
+    public static final int justifyContent = 2130969052;
+    public static final int layoutManager = 2130969056;
+    public static final int layout_alignSelf = 2130969057;
+    public static final int layout_flexBasisPercent = 2130969103;
+    public static final int layout_flexGrow = 2130969104;
+    public static final int layout_flexShrink = 2130969105;
+    public static final int layout_maxHeight = 2130969115;
+    public static final int layout_maxWidth = 2130969116;
+    public static final int layout_minHeight = 2130969117;
+    public static final int layout_minWidth = 2130969118;
+    public static final int layout_order = 2130969121;
+    public static final int layout_wrapBefore = 2130969128;
+    public static final int reverseLayout = 2130969208;
+    public static final int showDivider = 2130969265;
+    public static final int showDividerHorizontal = 2130969266;
+    public static final int showDividerVertical = 2130969267;
+    public static final int spanCount = 2130969355;
+    public static final int stackFromEnd = 2130969361;
+}

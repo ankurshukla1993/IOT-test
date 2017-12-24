@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:tag="layout/activity_summary_0" android:layout_width="match_parent" android:layout_height="match_parent">
+    <android.support.v7.widget.Toolbar android:id="@id/toolbar" android:background="@r$color/backgroundLight" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f040006" android:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+    <android.support.v7.widget.RecyclerView android:id="@r$id/recyclerview_summary" android:tag="binding_1" android:background="#ffffff" android:layout_width="match_parent" android:layout_height="match_parent" />
+</LinearLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="acessibility_recurrence_choose_end_date_description">aldatu amaiera-data</string>
+    <string name="cancel">Utzi</string>
+    <string name="day_picker_description">Hilabete-ikuspegiko eguna aukeratzeko sareta</string>
+    <string name="deleted_key">%1$s ezabatu da</string>
+    <string name="endByDate">; %s arte</string>
+    <string name="every_weekday">Astegun guztietan (al.-ol.)</string>
+    <string name="item_is_selected">%1$s hautatu da</string>
+    <string name="monthly">Hilero</string>
+    <string name="ok">Ados</string>
+    <string name="recurrence_end_continously">Beti</string>
+    <string name="recurrence_end_count_label">Gertaldi jakin batzuk</string>
+    <string name="recurrence_end_date">%s arte</string>
+    <string name="recurrence_end_date_label">Data batera arte</string>
+    <string name="recurrence_month_pattern_by_day">hilero, beti egun berean</string>
+    <string name="select_day">Hautatu hilabetea eta eguna</string>
+    <string name="select_hours">Hautatu orduak</string>
+    <string name="select_minutes">Hautatu minutuak</string>
+    <string name="select_year">Hautatu urtea</string>
+    <string name="year_picker_description">Urteen zerrenda</string>
+    <string name="yearly_plain">Urtero</string>
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="daily">
+        <item quantity="one">Diariamente</item>
+        <item quantity="other">Cada %d día/s</item>
+    </plurals>
+    <plurals name="endByCount">
+        <item quantity="one">; por una sola vez</item>
+        <item quantity="other">; %d por vez/veces</item>
+    </plurals>
+    <plurals name="recurrence_end_count">
+        <item quantity="one">En %d evento</item>
+        <item quantity="other">En %d eventos</item>
+    </plurals>
+    <plurals name="recurrence_interval_daily">
+        <item quantity="one">Cada %d día</item>
+        <item quantity="other">Cada %d días</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <item quantity="one">Cada %d mes</item>
+        <item quantity="other">Cada %d meses</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <item quantity="one">Cada %d semana</item>
+        <item quantity="other">Cada %d semanas</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <item quantity="one">Cada %d año</item>
+        <item quantity="other">Cada %d años</item>
+    </plurals>
+    <plurals name="weekly">
+        <item quantity="one">Semanalmente el %2$s</item>
+        <item quantity="other">Cada %1$d semana/s el %2$s</item>
+    </plurals>
+</resources>

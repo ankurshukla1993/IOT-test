@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="daily">
+        <item quantity="one">Dagligt</item>
+        <item quantity="other">Hver %d. dag</item>
+    </plurals>
+    <plurals name="endByCount">
+        <item quantity="one">, én gang</item>
+        <item quantity="other">, %d gange</item>
+    </plurals>
+    <plurals name="recurrence_end_count">
+        <item quantity="one">For %d begivenhed</item>
+        <item quantity="other">For %d begivenheder</item>
+    </plurals>
+    <plurals name="recurrence_interval_daily">
+        <item quantity="one">Hver %d dag</item>
+        <item quantity="other">Hver %d. dag</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <item quantity="one">%d gang om måneden</item>
+        <item quantity="other">Hver %d. måned</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <item quantity="one">%d gang om ugen</item>
+        <item quantity="other">Hver %d. uge</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <item quantity="one">%d gang om året</item>
+        <item quantity="other">Hvert %d. år</item>
+    </plurals>
+    <plurals name="weekly">
+        <item quantity="one">Ugentligt om %2$s</item>
+        <item quantity="other">Hver %1$d. uge om %2$s</item>
+    </plurals>
+</resources>

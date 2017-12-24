@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <android.support.v7.widget.Toolbar android:id="@id/toolbar" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f040006" android:popupTheme="@style/PopupOverlay" />
+    <ImageView android:id="@id/imv_voice_bp_monitor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/scan_voice_bp_monitor" android:layout_above="@id/btn_next" android:layout_below="@id/toolbar" android:layout_centerHorizontal="true" />
+    <Button android:id="@id/btn_next" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="20dp" android:text="@string/next" android:layout_alignParentBottom="true" />
+</RelativeLayout>

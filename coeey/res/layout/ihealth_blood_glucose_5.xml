@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@id/activity_main" android:layout_width="match_parent" android:layout_height="match_parent">
+    <android.support.v7.widget.Toolbar android:id="@id/toolbar" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f040006" android:popupTheme="@style/PopupOverlay" />
+    <TextView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:background="#92d18b" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2301" android:text="STATUS" android:layout_alignParentTop="true" />
+    <TextView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/txt_status" android:background="#92d18b" android:padding="30dp" android:layout_width="match_parent" android:layout_height="wrap_content" />
+</LinearLayout>

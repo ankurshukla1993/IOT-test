@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <android.support.v7.widget.Toolbar android:id="@id/toolbar" android:background="?attr/colorPrimary" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="?attr/actionBarSize" android:layout_alignParentTop="true" android:popupTheme="@style/PopupMenu" android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@id/imv_save" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp" android:src="@drawable/ic_action_ok" android:layout_alignParentRight="true" android:layout_marginEnd="10dp" />
+            </RelativeLayout>
+        </android.support.v7.widget.Toolbar>
+        <LinearLayout android:orientation="vertical" android:id="@id/linear_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="10dp" /> />
+</ScrollView>

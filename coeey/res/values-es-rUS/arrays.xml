@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="recurrence_freq">
+        <item>REPETIR DIARIAMENTE</item>
+        <item>REPETIR SEMANALMENTE</item>
+        <item>REPETIR MENSUALMENTE</item>
+        <item>REPETIR ANUALMENTE</item>
+    </array>
+    <array name="repeat_by_nth_fri">
+        <item>cada primer viernes del mes</item>
+        <item>cada segundo viernes del mes</item>
+        <item>cada tercer viernes del mes</item>
+        <item>cada cuarto viernes del mes</item>
+        <item>cada último viernes del mes</item>
+    </array>
+    <array name="repeat_by_nth_mon">
+        <item>cada primer lunes del mes</item>
+        <item>cada segundo lunes del mes</item>
+        <item>cada tercer lunes del mes</item>
+        <item>cada cuarto lunes del mes</item>
+        <item>cada último lunes del mes</item>
+    </array>
+    <array name="repeat_by_nth_sat">
+        <item>cada primer sábado del mes</item>
+        <item>cada segundo sábado del mes</item>
+        <item>cada tercer sábado del mes</item>
+        <item>cada cuarto sábado del mes</item>
+        <item>cada último sábado del mes</item>
+    </array>
+    <array name="repeat_by_nth_sun">
+        <item>cada primer domingo del mes</item>
+        <item>cada segundo domingo del mes</item>
+        <item>cada tercer domingo del mes</item>
+        <item>cada cuarto domingo del mes</item>
+        <item>cada último domingo del mes</item>
+    </array>
+    <array name="repeat_by_nth_thurs">
+        <item>cada primer jueves del mes</item>
+        <item>cada segundo jueves del mes</item>
+        <item>cada tercer jueves del mes</item>
+        <item>cada cuarto jueves del mes</item>
+        <item>cada último jueves del mes</item>
+    </array>
+    <array name="repeat_by_nth_tues">
+        <item>cada primer martes del mes</item>
+        <item>cada segundo martes del mes</item>
+        <item>cada tercer martes del mes</item>
+        <item>cada cuarto martes del mes</item>
+        <item>cada último martes del mes</item>
+    </array>
+    <array name="repeat_by_nth_wed">
+        <item>cada primer miércoles del mes</item>
+        <item>cada segundo miércoles del mes</item>
+        <item>cada tercer miércoles del mes</item>
+        <item>cada cuarto miércoles del mes</item>
+        <item>cada último miércoles del mes</item>
+    </array>
+</resources>

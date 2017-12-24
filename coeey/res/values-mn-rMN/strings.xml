@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="acessibility_recurrence_choose_end_date_description">дуусах огноог өөрчлөх</string>
+    <string name="cancel">Цуцлах</string>
+    <string name="day_picker_description">Өдрүүдийг сараар</string>
+    <string name="deleted_key">%1$s устсан</string>
+    <string name="endByDate">; хүртэл %s</string>
+    <string name="every_weekday">Ажлын бүх өдрүүдэд (Дав–Баа)</string>
+    <string name="item_is_selected">%1$s сонгогдсон</string>
+    <string name="monthly">Сар бүр</string>
+    <string name="ok">Тийм</string>
+    <string name="recurrence_end_continously">Үүрд</string>
+    <string name="recurrence_end_count_label">Нэлээн хэдэн үйл явдалд</string>
+    <string name="recurrence_end_date">Хүртэл %s</string>
+    <string name="recurrence_end_date_label">Огноо хүртэл</string>
+    <string name="recurrence_month_pattern_by_day">сар бүрийн ижил өдөр</string>
+    <string name="select_day">Сар болон өдрийг сонгоно уу</string>
+    <string name="select_hours">Цаг сонгоно уу</string>
+    <string name="select_minutes">Минут сонгоно уу</string>
+    <string name="select_year">Жилийг сонгоно уу</string>
+    <string name="year_picker_description">Жилийн жагсаалт</string>
+    <string name="yearly_plain">Жил бүр</string>
+</resources>

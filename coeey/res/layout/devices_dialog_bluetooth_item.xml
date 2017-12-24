@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ImageView android:padding="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/bluetooth_device" />
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp">
+        <TextView android:textSize="18sp" android:textColor="#595858" android:id="@id/tvBtItemName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="BerryMed" />
+        <TextView android:textColor="#595858" android:id="@id/tvBtItemAddr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="A1:A2:A3:A4:A5:A6" />
+    </LinearLayout>
+</LinearLayout>

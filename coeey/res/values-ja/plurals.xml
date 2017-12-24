@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="daily">
+        <item quantity="one">毎日</item>
+        <item quantity="other">%d日ごと</item>
+    </plurals>
+    <plurals name="endByCount">
+        <item quantity="one">（1回）</item>
+        <item quantity="other">（%d回）</item>
+    </plurals>
+    <plurals name="recurrence_end_count">
+        <item quantity="one">%d回繰り返す</item>
+        <item quantity="other">%d回繰り返す</item>
+    </plurals>
+    <plurals name="recurrence_interval_daily">
+        <item quantity="one">繰り返す間隔: %d日</item>
+        <item quantity="other">繰り返す間隔: %d日</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <item quantity="one">繰り返す間隔: %dか月</item>
+        <item quantity="other">繰り返す間隔: %dか月</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <item quantity="one">繰り返す間隔: %d週間</item>
+        <item quantity="other">繰り返す間隔: %d週間</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <item quantity="one">繰り返す間隔: %d年</item>
+        <item quantity="other">繰り返す間隔: %d年</item>
+    </plurals>
+    <plurals name="weekly">
+        <item quantity="one">毎週%2$s</item>
+        <item quantity="other">%1$d週間ごとの%2$s</item>
+    </plurals>
+</resources>

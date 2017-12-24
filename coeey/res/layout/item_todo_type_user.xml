@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:id="@id/text_todo_value" android:paddingBottom="10dp" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_marginTop="9dp" android:textAlignment="viewStart" android:layout_marginStart="16dp" android:layout_marginEnd="16dp" android:layout_constraintHorizontal_bias="1.0" android:layout_constraintLeft_toLeftOf="0" android:layout_constraintRight_toRightOf="0" android:layout_constraintTop_toTopOf="0" />
+    <View android:id="@id/view3" android:background="@color/light_gray" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="UNKNOWN_DATA_0x101" android:layout_marginTop="6dp" android:layout_constraintLeft_toLeftOf="0" android:layout_constraintTop_toBottomOf="@id/text_todo_value" />
+</android.support.constraint.ConstraintLayout>

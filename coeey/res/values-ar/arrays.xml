@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="recurrence_freq">
+        <item>التكرار يوميًا</item>
+        <item>التكرار أسبوعيًا</item>
+        <item>التكرار شهريًا</item>
+        <item>التكرار سنويًا</item>
+    </array>
+    <array name="repeat_by_nth_fri">
+        <item>يوم الجمعة الأول من كل شهر</item>
+        <item>يوم الجمعة الثاني من كل شهر</item>
+        <item>يوم الجمعة الثالث من كل شهر</item>
+        <item>يوم الجمعة الرابع من كل شهر</item>
+        <item>يوم الجمعة الأخير من كل شهر</item>
+    </array>
+    <array name="repeat_by_nth_mon">
+        <item>يوم الاثنين الأول من كل شهر</item>
+        <item>يوم الاثنين الثاني من كل شهر</item>
+        <item>يوم الاثنين الثالث من كل شهر</item>
+        <item>يوم الاثنين الرابع من كل شهر</item>
+        <item>يوم الاثنين الأخير من كل شهر</item>
+    </array>
+    <array name="repeat_by_nth_sat">
+        <item>يوم السبت الأول من كل شهر</item>
+        <item>يوم السبت الثاني من كل شهر</item>
+        <item>يوم السبت الثالث من كل شهر</item>
+        <item>يوم السبت الرابع من كل شهر</item>
+        <item>يوم السبت الأخير من كل شهر</item>
+    </array>
+    <array name="repeat_by_nth_sun">
+        <item>يوم الأحد الأول من كل شهر</item>
+        <item>يوم الأحد الثاني من كل شهر</item>
+        <item>يوم الأحد الثالث من كل شهر</item>
+        <item>يوم الأحد الرابع من كل شهر</item>
+        <item>يوم الأحد الأخير من كل شهر</item>
+    </array>
+    <array name="repeat_by_nth_thurs">
+        <item>يوم الخميس الأول من كل شهر</item>
+        <item>يوم الخميس الثاني من كل شهر</item>
+        <item>يوم الخميس الثالث من كل شهر</item>
+        <item>يوم الخميس الرابع من كل شهر</item>
+        <item>يوم الخميس الأخير من كل شهر</item>
+    </array>
+    <array name="repeat_by_nth_tues">
+        <item>يوم الثلاثاء الأول من كل شهر</item>
+        <item>يوم الثلاثاء الثاني من كل شهر</item>
+        <item>يوم الثلاثاء الثالث من كل شهر</item>
+        <item>يوم الثلاثاء الرابع من كل شهر</item>
+        <item>يوم الثلاثاء الأخير من كل شهر</item>
+    </array>
+    <array name="repeat_by_nth_wed">
+        <item>يوم الأربعاء الأول من كل شهر</item>
+        <item>يوم الأربعاء الثاني من كل شهر</item>
+        <item>يوم الأربعاء الثالث من كل شهر</item>
+        <item>يوم الأربعاء الرابع من كل شهر</item>
+        <item>يوم الأربعاء الأخير من كل شهر</item>
+    </array>
+</resources>

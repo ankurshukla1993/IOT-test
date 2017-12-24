@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="daily">
+        <item quantity="one">Täglich</item>
+        <item quantity="other">Alle %d Tage</item>
+    </plurals>
+    <plurals name="endByCount">
+        <item quantity="one">, ein Mal</item>
+        <item quantity="other">, %d Mal</item>
+    </plurals>
+    <plurals name="recurrence_end_count">
+        <item quantity="one">%d-mal</item>
+        <item quantity="other">%d-mal</item>
+    </plurals>
+    <plurals name="recurrence_interval_daily">
+        <item quantity="one">Nach %d Tag</item>
+        <item quantity="other">Alle %d Tage</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <item quantity="one">Nach %d Monat</item>
+        <item quantity="other">Alle %d Monate</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <item quantity="one">Nach %d Woche</item>
+        <item quantity="other">Alle %d Wochen</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <item quantity="one">Nach %d Jahr</item>
+        <item quantity="other">Alle %d Jahre</item>
+    </plurals>
+    <plurals name="weekly">
+        <item quantity="one">Wöchentlich am %2$s</item>
+        <item quantity="other">Alle %1$d Wochen am %2$s</item>
+    </plurals>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include android:layout_width="UNKNOWN_DATA_0xa801" android:layout_height="match_parent" layout="@layout/date_picker_header" />
+    <LinearLayout android:orientation="vertical" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="1.0">
+        <include android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0" layout="@layout/date_picker_view_animator" />
+        <LinearLayout android:orientation="horizontal" android:paddingLeft="@dimen/sp_button_bar_padding_start" android:paddingTop="@dimen/sp_button_bar_padding_top" android:paddingRight="@dimen/sp_button_bar_padding_end" android:paddingBottom="@dimen/sp_button_bar_padding_bottom" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="0.0" android:paddingStart="@dimen/sp_button_bar_padding_start" android:paddingEnd="@dimen/sp_button_bar_padding_end">
+            <Space android:visibility="invisible" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0" />
+            <ImageView android:id="@id/imageViewNegativeDP" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="?attr/spLandscapeCancelActionDrawable" android:scaleType="center" android:minWidth="@dimen/sp_dialog_button_bar_height" android:minHeight="@dimen/sp_dialog_button_bar_height" android:layout_weight="0.0" android:contentDescription="@string/cd_negative_component" />
+            <ImageView android:id="@id/imageViewPositiveDP" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="?attr/spLandscapeOkActionDrawable" android:scaleType="center" android:minWidth="@dimen/sp_dialog_button_bar_height" android:minHeight="@dimen/sp_dialog_button_bar_height" android:layout_weight="0.0" android:contentDescription="@string/cd_positive_component" />
+            <Button android:id="@id/buttonNegativeDP" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="0.0" style="?attr/spLandscapeButtonModeOkCancelButtonStyle" />
+            <Button android:id="@id/buttonPositiveDP" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="0.0" style="?attr/spLandscapeButtonModeOkCancelButtonStyle" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

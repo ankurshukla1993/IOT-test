@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="recurrence_freq">
+        <item>HƏR GÜN TƏKRARLA</item>
+        <item>HƏR HƏFTƏ TƏKRARLA</item>
+        <item>HƏR AY TƏKRARLA</item>
+        <item>HƏR İL TƏKRARLA</item>
+    </array>
+    <array name="repeat_by_nth_fri">
+        <item>hər birinci cümə</item>
+        <item>hər ikinci cümə</item>
+        <item>hər üçüncü cümə</item>
+        <item>hər dördüncü cümə</item>
+        <item>hər sonuncu cümə</item>
+    </array>
+    <array name="repeat_by_nth_mon">
+        <item>hər birinci bazar ertəsi</item>
+        <item>hər ikinci bazar ertəsi</item>
+        <item>hər üçüncü bazar ertəsi</item>
+        <item>hər dördüncü bazar ertəsi</item>
+        <item>hər sonuncu bazar ertəsi</item>
+    </array>
+    <array name="repeat_by_nth_sat">
+        <item>hər birinci şənbə</item>
+        <item>hər ikinci şənbə</item>
+        <item>hər üçüncü şənbə</item>
+        <item>hər dördüncü şənbə</item>
+        <item>hər sonuncu şənbə</item>
+    </array>
+    <array name="repeat_by_nth_sun">
+        <item>hər birinci bazar günü</item>
+        <item>hər ikinci bazar günü</item>
+        <item>hər üçüncü bazar günü</item>
+        <item>hər dördüncü bazar günü</item>
+        <item>hər sonuncu bazar günü</item>
+    </array>
+    <array name="repeat_by_nth_thurs">
+        <item>hər birinci cümə axşamı</item>
+        <item>hər ikinci cümə axşamı</item>
+        <item>hər üçüncü cümə axşamı</item>
+        <item>hər dördüncü cümə axşamı</item>
+        <item>hər sonuncu cümə axşamı</item>
+    </array>
+    <array name="repeat_by_nth_tues">
+        <item>hər birinci çərşənbə axşamı</item>
+        <item>hər ikinci çərşənbə axşamı</item>
+        <item>hər üçüncü çərşənbə axşamı</item>
+        <item>hər dördüncü çərşənbə axşamı</item>
+        <item>hər sonuncu çərşənbə axşamı</item>
+    </array>
+    <array name="repeat_by_nth_wed">
+        <item>hər birinci çərşənbə</item>
+        <item>hər ikinci çərşənbə</item>
+        <item>hər üçüncü çərşənbə</item>
+        <item>hər dördüncü çərşənbə</item>
+        <item>hər sonuncu çərşənbə</item>
+    </array>
+</resources>

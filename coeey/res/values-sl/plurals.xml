@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="daily">
+        <item quantity="one">Dnevno</item>
+        <item quantity="other">Vsakih toliko dni: %d</item>
+    </plurals>
+    <plurals name="endByCount">
+        <item quantity="one">– enkrat</item>
+        <item quantity="other">– tolikokrat: %d</item>
+    </plurals>
+    <plurals name="recurrence_end_count">
+        <item quantity="one">Za toliko dogodkov: %d</item>
+        <item quantity="other">Za toliko dogodkov: %d</item>
+    </plurals>
+    <plurals name="recurrence_interval_daily">
+        <item quantity="one">Vsakih toliko dni: %d</item>
+        <item quantity="other">Vsakih toliko dni: %d</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <item quantity="one">Vsakih toliko mesecev: %d</item>
+        <item quantity="other">Vsakih toliko mesecev: %d</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <item quantity="one">Vsakih toliko tednov: %d</item>
+        <item quantity="other">Vsakih toliko tednov: %d</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <item quantity="one">Vsakih toliko let: %d</item>
+        <item quantity="other">Vsakih toliko let: %d</item>
+    </plurals>
+    <plurals name="weekly">
+        <item quantity="one">Tedensko: %2$s</item>
+        <item quantity="other">%2$s – na vsakih toliko tednov: %1$d</item>
+    </plurals>
+</resources>

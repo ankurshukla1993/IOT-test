@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginTop="8dp" android:layout_marginRight="16dp" android:layout_marginBottom="8dp">
+    <com.google.android.flexbox.FlexboxLayout android:id="@id/bubble" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/message_outcoming_bubble_margin_left" android:layout_alignParentRight="true" android:alignContent="5" android:alignItems="4" android:flexWrap="1" android:justifyContent="1">
+        <TextView android:id="@id/messageText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignWithParentIfMissing="true" />
+        <TextView android:id="@id/messageTime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_below="@id/messageText" android:layout_alignSelf="2" android:layout_order="1" />
+    </com.google.android.flexbox.FlexboxLayout>
+</RelativeLayout>

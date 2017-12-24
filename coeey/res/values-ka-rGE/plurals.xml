@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="daily">
+        <item quantity="one">ყოველდღიურად</item>
+        <item quantity="other">ყოველ %d დღეს</item>
+    </plurals>
+    <plurals name="endByCount">
+        <item quantity="one">; ერთხელ</item>
+        <item quantity="other">; %d-ჯერ</item>
+    </plurals>
+    <plurals name="recurrence_end_count">
+        <item quantity="one">%d ღონისძიებისთვის</item>
+        <item quantity="other">%d ღონისძიებისთვის</item>
+    </plurals>
+    <plurals name="recurrence_interval_daily">
+        <item quantity="one">ყოველ %d დღეში</item>
+        <item quantity="other">ყოველ %d დღეში</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <item quantity="one">ყოველ %d თვეში</item>
+        <item quantity="other">ყოველ %d თვეში</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <item quantity="one">ყოველ %d კვირაში</item>
+        <item quantity="other">ყოველ %d კვირაში</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <item quantity="one">ყოველ %d წელიწადში</item>
+        <item quantity="other">ყოველ %d წელიწადში</item>
+    </plurals>
+    <plurals name="weekly">
+        <item quantity="one">ყოველკვირეულად %2$s-ობით</item>
+        <item quantity="other">ყოველ %1$d კვირაში, %2$s-ობით</item>
+    </plurals>
+</resources>

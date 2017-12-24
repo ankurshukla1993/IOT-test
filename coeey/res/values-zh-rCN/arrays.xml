@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="recurrence_freq">
+        <item>每天重复</item>
+        <item>每周重复</item>
+        <item>每月重复</item>
+        <item>每年重复</item>
+    </array>
+    <array name="repeat_by_nth_fri">
+        <item>第一个星期五</item>
+        <item>第二个星期五</item>
+        <item>第三个星期五</item>
+        <item>第四个星期五</item>
+        <item>最后一个星期五</item>
+    </array>
+    <array name="repeat_by_nth_mon">
+        <item>第一个星期一</item>
+        <item>第二个星期一</item>
+        <item>第三个星期一</item>
+        <item>第四个星期一</item>
+        <item>最后一个星期一</item>
+    </array>
+    <array name="repeat_by_nth_sat">
+        <item>第一个星期六</item>
+        <item>第二个星期六</item>
+        <item>第三个星期六</item>
+        <item>第四个星期六</item>
+        <item>最后一个星期六</item>
+    </array>
+    <array name="repeat_by_nth_sun">
+        <item>第一个星期日</item>
+        <item>第二个星期日</item>
+        <item>第三个星期日</item>
+        <item>第四个星期日</item>
+        <item>最后一个星期日</item>
+    </array>
+    <array name="repeat_by_nth_thurs">
+        <item>第一个星期四</item>
+        <item>第二个星期四</item>
+        <item>第三个星期四</item>
+        <item>第四个星期四</item>
+        <item>最后一个星期四</item>
+    </array>
+    <array name="repeat_by_nth_tues">
+        <item>第一个星期二</item>
+        <item>第二个星期二</item>
+        <item>第三个星期二</item>
+        <item>第四个星期二</item>
+        <item>最后一个星期二</item>
+    </array>
+    <array name="repeat_by_nth_wed">
+        <item>第一个星期三</item>
+        <item>第二个星期三</item>
+        <item>第三个星期三</item>
+        <item>第四个星期三</item>
+        <item>最后一个星期三</item>
+    </array>
+</resources>

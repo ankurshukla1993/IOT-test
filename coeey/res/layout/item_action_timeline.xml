@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.cooey.common.views.TimelineItemView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <android.support.v7.widget.CardView android:layout_width="match_parent" android:layout_height="wrap_content" android:cardCornerRadius="8dp" android:cardUseCompatPadding="true" android:elevation="3dp">
+        <RelativeLayout android:padding="20dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:id="@id/action_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="TODO" android:fontFamily="@font/lato_black" />
+            <TextView android:textSize="18dp" android:id="@id/action_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:layout_below="@id/action_title" android:fontFamily="@font/vollkorn" />
+            <TextView android:textSize="8dp" android:textColor="@color/white" android:id="@id/status_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:layout_below="@id/action_text" android:textAllCaps="true" android:fontFamily="@font/lato_black" />
+            <TextView android:textSize="12sp" android:textColor="#999999" android:id="@id/time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12sp" android:layout_marginBottom="2sp" android:layout_below="@id/status_text" android:fontFamily="lato" />
+        </RelativeLayout>
+        <FrameLayout android:background="#9379ac" android:layout_width="UNKNOWN_DATA_0x501" android:layout_height="match_parent" />
+    </android.support.v7.widget.CardView>
+</com.cooey.common.views.TimelineItemView>

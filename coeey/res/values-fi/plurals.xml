@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="daily">
+        <item quantity="one">Päivittäin</item>
+        <item quantity="other">Joka %d. päivä</item>
+    </plurals>
+    <plurals name="endByCount">
+        <item quantity="one">yhden kerran</item>
+        <item quantity="other">; %d kertaa</item>
+    </plurals>
+    <plurals name="recurrence_end_count">
+        <item quantity="one">%d tapahtuman ajan</item>
+        <item quantity="other">%d tapahtuman ajan</item>
+    </plurals>
+    <plurals name="recurrence_interval_daily">
+        <item quantity="one">%d päivän välein</item>
+        <item quantity="other">%d päivän välein</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <item quantity="one">%d kuukauden välein</item>
+        <item quantity="other">%d kuukauden välein</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <item quantity="one">%d viikon välein</item>
+        <item quantity="other">%d viikon välein</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <item quantity="one">%d vuoden välein</item>
+        <item quantity="other">%d vuoden välein</item>
+    </plurals>
+    <plurals name="weekly">
+        <item quantity="one">Viikoittain joka %2$s</item>
+        <item quantity="other">%1$d viikon välein joka %2$s</item>
+    </plurals>
+</resources>

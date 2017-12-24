@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.db.chart.view.LineChartView android:id="@id/chart" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0xb401" android:chart_axis="false" android:chart_axisBorderSpacing="15dp" android:chart_labelColor="#6a84c3" />
+    <TextView android:textColor="@color/white" android:id="@id/placeholder_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="80dp" android:layout_marginRight="80dp" android:text="@string/graph_place_holder_text" android:layout_centerInParent="true" android:fontFamily="@font/lato_bold" android:textAlignment="center" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/vertical_container" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0xb401" android:layout_below="@id/chart" />
+</RelativeLayout>

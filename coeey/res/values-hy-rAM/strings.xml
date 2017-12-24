@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="acessibility_recurrence_choose_end_date_description">փոխել ավարտի ամսաթիվը</string>
+    <string name="cancel">Չեղարկել</string>
+    <string name="day_picker_description">Ամսաթվի ընտրության պատուհան</string>
+    <string name="deleted_key">%1$s թիվը ջնջված է</string>
+    <string name="endByDate">; մինչև %s</string>
+    <string name="every_weekday">Յուրաքանչյուր աշխատանքային օր (երկ-ուրբ)</string>
+    <string name="item_is_selected">Ընտրված է %1$s տարրը</string>
+    <string name="monthly">Ամեն ամիս</string>
+    <string name="ok">Լավ</string>
+    <string name="recurrence_end_continously">Ընդմիշտ</string>
+    <string name="recurrence_end_count_label">Իրադարձությունների քանակով</string>
+    <string name="recurrence_end_date">Մինչև %s-ը</string>
+    <string name="recurrence_end_date_label">Մինչև ամսաթիվը</string>
+    <string name="recurrence_month_pattern_by_day">ամեն ամսվա նույն օրը</string>
+    <string name="select_day">Ընտրեք ամիսն ու օրը</string>
+    <string name="select_hours">Ընտրեք ժամը</string>
+    <string name="select_minutes">Ընտրեք րոպեն</string>
+    <string name="select_year">Ընտրեք տարին</string>
+    <string name="year_picker_description">Տարիների ցանկ</string>
+    <string name="yearly_plain">Ամեն տարի</string>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/white" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <android.support.v7.widget.Toolbar android:theme="?attr/actionBarTheme" android:id="@id/toolbar" android:background="?attr/colorPrimary" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="?attr/actionBarSize" />
+        <ScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout android:orientation="vertical" android:id="@id/fields_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/containerSpacing" android:layout_marginTop="@dimen/containerSpacing" android:layout_marginRight="@dimen/containerSpacing" android:layout_marginStart="@dimen/containerSpacing" android:layout_marginEnd="@dimen/containerSpacing"
+                <LinearLayout android:orientation="vertical" android:id="@id/vital_input_container" android:layout_width="match_parent" android:layout_height="wrap_content" />
+                <android.support.design.widget.TextInputLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:layout_marginBottom="30dp">
+                    <android.support.design.widget.TextInputEditText android:textSize="16sp" android:id="@id/notes_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Notes" android:inputType="text|textCapCharacters|textCapWords|textCapSentences|textAutoCorrect|textAutoComplete|textMultiLine|textImeMultiLine|textNoSuggestions|textUri|textEmailAddress|textEmailSubject|textShortMessage|textLongMessage|textPersonName|textPostalAddress|textPassword|textVisiblePassword|textWebEditText|textFilter|textPhonetic|textWebEmailAddress|textWebPassword|phone" android:fontFamily="@font/vollkorn" android:textAlignment="viewStart" />
+                </android.support.design.widget.TextInputLayout>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_marginTop="24dp" android:layout_marginBottom="16dp" android:text="MOOD" android:fontFamily="@font/lato_black" />
+                <RadioGroup android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="6dp">
+                    <RadioButton android:id="@id/happy_mood" android:background="@drawable/happy_selector" android:clickable="true" android:layout_width="UNKNOWN_DATA_0x5a01" android:layout_height="UNKNOWN_DATA_0x5a01" android:layout_marginLeft="10dp" android:button="0x0" />
+                    <RadioButton android:id="@id/sad_mood" android:background="@drawable/sad_selector" android:layout_width="UNKNOWN_DATA_0x5a01" android:layout_height="UNKNOWN_DATA_0x5a01" android:layout_marginLeft="10dp" android:button="0x0" />
+                    <RadioButton android:id="@id/indifferent_mood" android:background="@drawable/indifferent_selector" android:layout_width="UNKNOWN_DATA_0x5a01" android:layout_height="UNKNOWN_DATA_0x5a01" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:button="0x0" />
+                </RadioGroup>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</RelativeLayout>

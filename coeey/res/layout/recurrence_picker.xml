@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/recurrence_picker" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ScrollView android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:focusable="true" android:focusableInTouchMode="true" android:descendantFocusability="beforeDescendants" android:layout_width="match_parent" android:layout_height="wrap_content" android:minWidth="@dimen/recurrence_picker_width" android:minHeight="@dimen/recurrence_picker_height">
+                <FrameLayout android:id="@id/freqSpinnerHolder" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <Spinner android:id="@id/freqSpinner" android:layout_width="match_parent" android:layout_height="wrap_content" style="?attr/spRocFreqSpinnerStyle" />
+                </FrameLayout>
+                <LinearLayout android:orientation="vertical" android:id="@id/options" android:paddingTop="4dp" android:paddingBottom="4dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:measureAllChildren="true"
+                    <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/intervalGroup" android:paddingLeft="24dp" android:paddingRight="24dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <TextView android:textAppearance="?attr/spRocLabelTextAppearance" android:id="@id/intervalPreText" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                        <EditText android:textSize="15sp" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/interval" android:paddingLeft="4dp" android:paddingRight="4dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:ems="2" android:singleLine="true" android:selectAllOnFocus="true" android:maxLength="2" android:inputType="number|numberSigned|numberDecimal|numberPassword|phone" />
+                        <TextView android:textAppearance="?attr/spRocLabelTextAppearance" android:id="@id/intervalPostText" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    </LinearLayout>
+                    <include layout="@layout/week_buttons" />
+                    <RadioGroup android:orientation="vertical" android:id="@id/monthGroup" android:paddingLeft="24dp" android:paddingRight="24dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <RadioButton android:id="@id/repeatMonthlyByNthDayOfMonth" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/recurrence_month_pattern_by_day" />
+                        <RadioButton android:id="@id/repeatMonthlyByNthDayOfTheWeek" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    </RadioGroup>
+                    <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:id="@id/endGroup" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <Spinner android:id="@id/endSpinner" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?attr/spRocEndSpinnerStyle" />
+                        <EditText android:textSize="15sp" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/endCount" android:layout_width="wrap_content" android:layout_height="wrap_content" android:ems="3" android:singleLine="true" android:selectAllOnFocus="true" android:maxLength="3" android:inputType="number|numberSigned|numberDecimal|numberPassword|phone" />
+                        <TextView android:textAppearance="?attr/spRocLabelTextAppearance" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/postEndCount" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+                        <TextView android:id="@id/endDate" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?attr/spRocEndDateStyle" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+        <com.appeaser.sublimepickerlibrary.common.DecisionButtonLayout android:id="@id/roc_decision_button_layout" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <com.appeaser.sublimepickerlibrary.datepicker.RecurrenceEndDatePicker android:id="@id/date_only_picker" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</merge>

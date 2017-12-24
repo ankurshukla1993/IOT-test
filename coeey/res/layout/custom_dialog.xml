@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="18sp" android:textColor="@color/black" android:id="@id/txt_view_feedback_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="20dp" android:layout_marginLeft="20dp" />
+    <RelativeLayout android:id="@id/rel_feeback_response" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@id/txt_view_feedback_title">
+        <LinearLayout android:id="@id/linear_radio_response" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="20dp" android:weightSum="2.0">
+            <RadioButton android:id="@id/rdb_true" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:text="True" android:layout_weight="1.0" />
+            <RadioButton android:id="@id/rdb_false" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:text="False" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/linear_edit_response" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="20dp" android:weightSum="2.0">
+            <EditText android:id="@id/edt_feedback_input_response" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

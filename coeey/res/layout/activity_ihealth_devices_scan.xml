@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/layout_container" android:layout_width="match_parent" android:layout_height="match_parent">
+    <android.support.design.widget.AppBarLayout android:theme="@style/AppBarOverlay" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <android.support.v7.widget.Toolbar android:id="@id/toolbar" android:background="#25b5f1" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f040006" android:popupTheme="@style/PopupOverlay" />
+    </android.support.design.widget.AppBarLayout>
+</RelativeLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="daily">
+        <item quantity="one">Ամեն օր</item>
+        <item quantity="other">%d օրը մեկ</item>
+    </plurals>
+    <plurals name="endByCount">
+        <item quantity="one">; մեկ անգամ</item>
+        <item quantity="other">; %d անգամ</item>
+    </plurals>
+    <plurals name="recurrence_end_count">
+        <item quantity="one">%d իրադարձության համար</item>
+        <item quantity="other">%d իրադարձության համար</item>
+    </plurals>
+    <plurals name="recurrence_interval_daily">
+        <item quantity="one">%d օրը մեկ</item>
+        <item quantity="other">%d օրը մեկ</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <item quantity="one">%d ամիսը մեկ</item>
+        <item quantity="other">%d ամիսը մեկ</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <item quantity="one">%d շաբաթը մեկ</item>
+        <item quantity="other">%d շաբաթը մեկ</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <item quantity="one">%d տարին մեկ</item>
+        <item quantity="other">%d տարին մեկ</item>
+    </plurals>
+    <plurals name="weekly">
+        <item quantity="one">Շաբաթը մեկ՝ %2$s</item>
+        <item quantity="other">%1$d շաբաթը մեկ՝ %2$s</item>
+    </plurals>
+</resources>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="list_preference_entries">
+        <item>エントリ1</item>
+        <item>エントリ2</item>
+        <item>エントリ3</item>
+    </array>
+    <array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </array>
+    <array name="multi_select_list_preference_default_value">
+    </array>
+    <array name="pref_example_list_titles">
+        <item>常に</item>
+        <item>可能であれば</item>
+        <item>絶対に</item>
+    </array>
+    <array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </array>
+    <array name="pref_sync_frequency_titles">
+        <item>15分</item>
+        <item>30分</item>
+        <item>1時間</item>
+        <item>3時間</item>
+        <item>6時間</item>
+        <item>絶対に</item>
+    </array>
+    <array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </array>
+    <array name="recurrence_freq">
+        <item>繰り返し: 毎日</item>
+        <item>繰り返し: 毎週</item>
+        <item>繰り返し: 毎月</item>
+        <item>繰り返し: 毎年</item>
+    </array>
+    <array name="repeat_by_nth_fri">
+        <item>毎月第1金曜日</item>
+        <item>毎月第2金曜日</item>
+        <item>毎月第3金曜日</item>
+        <item>毎月第4金曜日</item>
+        <item>毎月最終金曜日</item>
+    </array>
+    <array name="repeat_by_nth_mon">
+        <item>毎月第1月曜日</item>
+        <item>毎月第2月曜日</item>
+        <item>毎月第3月曜日</item>
+        <item>毎月第4月曜日</item>
+        <item>毎月最終月曜日</item>
+    </array>
+    <array name="repeat_by_nth_sat">
+        <item>毎月第1土曜日</item>
+        <item>毎月第2土曜日</item>
+        <item>毎月第3土曜日</item>
+        <item>毎月第4土曜日</item>
+        <item>毎月最終土曜日</item>
+    </array>
+    <array name="repeat_by_nth_sun">
+        <item>毎月第1日曜日</item>
+        <item>毎月第2日曜日</item>
+        <item>毎月第3日曜日</item>
+        <item>毎月第4日曜日</item>
+        <item>毎月最終日曜日</item>
+    </array>
+    <array name="repeat_by_nth_thurs">
+        <item>毎月第1木曜日</item>
+        <item>毎月第2木曜日</item>
+        <item>毎月第3木曜日</item>
+        <item>毎月第4木曜日</item>
+        <item>毎月最終木曜日</item>
+    </array>
+    <array name="repeat_by_nth_tues">
+        <item>毎月第1火曜日</item>
+        <item>毎月第2火曜日</item>
+        <item>毎月第3火曜日</item>
+        <item>毎月第4火曜日</item>
+        <item>毎月最終火曜日</item>
+    </array>
+    <array name="repeat_by_nth_wed">
+        <item>毎月第1水曜日</item>
+        <item>毎月第2水曜日</item>
+        <item>毎月第3水曜日</item>
+        <item>毎月第4水曜日</item>
+        <item>毎月最終水曜日</item>
+    </array>
+</resources>

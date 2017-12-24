@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.flexbox.FlexboxLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@r$id/flex_layout" android:padding="10dp" android:layout_width="match_parent" android:layout_height="match_parent" android:alignContent="2" android:flexDirection="0" android:flexWrap="1" />

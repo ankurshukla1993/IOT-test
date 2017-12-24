@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:background="0x1060000" android:layout_width="UNKNOWN_DATA_0x201" android:layout_height="match_parent" android:layout_marginStart="24dp" android:layout_constraintBottom_toBottomOf="0" android:layout_constraintStart_toStartOf="0" android:layout_constraintTop_toTopOf="0" />
+</android.support.constraint.ConstraintLayout>

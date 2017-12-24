@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@r$drawable/ic_action_add" android:id="@r$id/menu_add_event" android:title="Add Event" android:showAsAction="always" />
+</menu>

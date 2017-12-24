@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <View android:id="@id/border" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="UNKNOWN_DATA_0x1" />
+    <co.ceryle.segmentedbutton.RoundedCornerLayout android:id="@id/ceryle_test_group_roundedCornerLayout" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:id="@id/main_view" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <ImageView android:id="@id/right_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="matrix" />
+        <ImageView android:id="@id/left_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="matrix" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/rippleContainer" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/dividerContainer" android:focusable="false" android:clickable="false" android:layout_width="match_parent" android:layout_height="match_parent" />
+    </co.ceryle.segmentedbutton.RoundedCornerLayout>
+</RelativeLayout>

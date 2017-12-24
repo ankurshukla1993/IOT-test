@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="daily">
+        <item quantity="one">दैनिक</item>
+        <item quantity="other">दर %d दिवसांनी</item>
+    </plurals>
+    <plurals name="endByCount">
+        <item quantity="one">; एका वेळी</item>
+        <item quantity="other">; %d वेळी</item>
+    </plurals>
+    <plurals name="recurrence_end_count">
+        <item quantity="one">%d इव्हेंटसाठी</item>
+        <item quantity="other">%d इव्हेंटसाठी</item>
+    </plurals>
+    <plurals name="recurrence_interval_daily">
+        <item quantity="one">दर %d दिवसाने</item>
+        <item quantity="other">दर %d दिवसांनी</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <item quantity="one">दर %d महिन्याने</item>
+        <item quantity="other">दर %d महिन्यांनी</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <item quantity="one">दर %d आठवड्यात</item>
+        <item quantity="other">दर %d आठवड्यांनी</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <item quantity="one">दर %d वर्षी</item>
+        <item quantity="other">दर %d वर्षांनी</item>
+    </plurals>
+    <plurals name="weekly">
+        <item quantity="one">%2$s रोजी साप्ताहिक</item>
+        <item quantity="other">%2$s रोजी दर %1$d आठवड्यांनी</item>
+    </plurals>
+</resources>

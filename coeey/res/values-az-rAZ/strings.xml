@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="acessibility_recurrence_choose_end_date_description">son tarixi dəyiş</string>
+    <string name="cancel">Ləğv et</string>
+    <string name="endByDate">; %s tarixinə qədər</string>
+    <string name="every_weekday">Hər həftə içi (B.e.–Cümə)</string>
+    <string name="monthly">Hər ay</string>
+    <string name="ok">OK</string>
+    <string name="recurrence_end_continously">Həmişə</string>
+    <string name="recurrence_end_count_label">Bir sıra tədbirlər üçün</string>
+    <string name="recurrence_end_date">%s tarixinə qədər</string>
+    <string name="recurrence_end_date_label">Bir tarixə qədər</string>
+    <string name="recurrence_month_pattern_by_day">hər ayın eyni günü</string>
+    <string name="yearly_plain">Hər il</string>
+</resources>

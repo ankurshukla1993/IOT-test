@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <android.support.design.widget.AppBarLayout android:theme="@style/AppTheme.AppBarOverlay" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <android.support.v7.widget.Toolbar android:id="@id/toolbar" android:background="?attr/colorPrimary" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f040006" android:popupTheme="@style/AppTheme.PopupOverlay" />
+    </android.support.design.widget.AppBarLayout>
+    <FrameLayout android:id="@id/container" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="50dp" />
+    <com.cooey.android.vitals.views.VitalBlueprintSelectionView android:orientation="vertical" android:id="@r$id/vital_blueprint_selector" android:background="@color/white" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="?attr/actionBarSize" android:behavior_hideable="true" android:layout_behavior="@string/bottom_sheet_behavior" />
+    <android.support.design.widget.FloatingActionButton android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/fab" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/fab_margin" android:tint="0x106000b" android:srcCompat="@drawable/ic_add_black_24dp" />
+</android.support.design.widget.CoordinatorLayout>

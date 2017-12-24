@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <android.support.v7.widget.CardView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="10dp" android:layout_marginLeft="8sp" android:layout_marginTop="6sp" android:layout_marginRight="8sp" android:minHeight="110sp" android:cardBackgroundColor="@color/backgroundDark" android:cardCornerRadius="5dp" android:cardElevation="5dp">
+        <TextView android:textSize="17dp" android:id="@r$id/lblListItem" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="5dp" android:text="@r$string/once_you_are_done_with_customer_adapter_open_your_mainactivity_java_and_do_the_following_changes_in_the_following_i_created_required_data_needed_for_list_view_and_passed_it_to_custom_adapter" />
+    </android.support.v7.widget.CardView>
+</LinearLayout>

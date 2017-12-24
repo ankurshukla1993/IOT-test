@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="daily">
+        <item quantity="one">Katru dienu</item>
+        <item quantity="other">Ik pēc %d dienām</item>
+    </plurals>
+    <plurals name="endByCount">
+        <item quantity="one">; vienu reizi</item>
+        <item quantity="other">; %d reizes</item>
+    </plurals>
+    <plurals name="recurrence_end_count">
+        <item quantity="one">%d notikumā</item>
+        <item quantity="other">%d notikumos</item>
+    </plurals>
+    <plurals name="recurrence_interval_daily">
+        <item quantity="one">Ik pēc %d dienas</item>
+        <item quantity="other">Ik pēc %d dienas(-ām)</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <item quantity="one">Ik pēc %d mēneša</item>
+        <item quantity="other">Ik pēc %d mēneša(-iem)</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <item quantity="one">Ik pēc %d nedēļas</item>
+        <item quantity="other">Ik pēc %d nedēļas(-ām)</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <item quantity="one">Ik pēc %d gada</item>
+        <item quantity="other">Ik pēc %d gada(-iem)</item>
+    </plurals>
+    <plurals name="weekly">
+        <item quantity="one">Reizi nedēļā, katru %2$s</item>
+        <item quantity="other">Reizi %1$d nedēļās, katru %2$s</item>
+    </plurals>
+</resources>

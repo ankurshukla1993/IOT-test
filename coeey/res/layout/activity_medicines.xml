@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include layout="@r$layout/toolbar" />
+    <android.support.v7.widget.RecyclerView android:id="@r$id/rev_medicines" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@id/toolbar" />
+    <ProgressBar android:id="@id/progressBar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    <android.support.v7.widget.RecyclerView android:id="@id/rev_list_meds" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@id/toolbar" android:layout_behavior="@string/appbar_scrolling_view_behavior" />
+    <TextView android:textSize="16sp" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@r$id/txt_no_medicine" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Add medicine by clicking + button below" android:layout_centerInParent="true" />
+    <android.support.design.widget.FloatingActionButton android:id="@r$id/btn_add_new" android:layout_width="UNKNOWN_DATA_0x5001" android:layout_height="UNKNOWN_DATA_0x5001" android:layout_margin="20dp" android:src="@drawable/ic_add_black_24dp" android:text="Add New" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true" />
+</RelativeLayout>

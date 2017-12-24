@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@id/rel_progress" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@id/toolbar">
+        <ProgressBar android:id="@id/circularProgressbardystolic" android:layout_width="UNKNOWN_DATA_0x9601" android:layout_height="UNKNOWN_DATA_0x9601" android:max="100" android:progress="100" android:progressDrawable="@drawable/circular" android:layout_centerInParent="true" style="?unknown_attr_ref: 1010078" />
+        <ProgressBar android:id="@id/circularProgressbar1" android:layout_width="UNKNOWN_DATA_0xc801" android:layout_height="UNKNOWN_DATA_0xc801" android:max="100" android:progress="100" android:progressDrawable="@drawable/circular" android:layout_centerInParent="true" style="?unknown_attr_ref: 1010078" />
+        <ProgressBar android:id="@id/circularProgressbar2" android:layout_width="UNKNOWN_DATA_0xfa01" android:layout_height="UNKNOWN_DATA_0xfa01" android:max="100" android:progress="100" android:progressDrawable="@drawable/circular" android:layout_centerInParent="true" style="?unknown_attr_ref: 1010078" />
+        <RelativeLayout android:paddingTop="10dp" android:paddingRight="30dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:layout_centerInParent="true">
+            <LinearLayout android:orientation="horizontal" android:id="@id/linear_bp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_width="UNKNOWN_DATA_0x1401" android:layout_height="UNKNOWN_DATA_0x1401" android:src="@drawable/blood_glucose" />
+                <TextView android:textSize="18sp" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/txt_progress" android:layout_width="UNKNOWN_DATA_0x1e01" android:layout_height="UNKNOWN_DATA_0x1e01" android:layout_marginLeft="10dp" android:text="@string/bp" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/linear_bp_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/linear_bp">
+                <ImageView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_width="UNKNOWN_DATA_0x1401" android:layout_height="UNKNOWN_DATA_0x1401" android:src="@drawable/blood_glucose" />
+                <TextView android:textSize="18sp" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_width="UNKNOWN_DATA_0x1e01" android:layout_height="UNKNOWN_DATA_0x1e01" android:layout_marginLeft="10dp" android:text="@string/bp" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/linear_bp_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/linear_bp_1">
+                <ImageView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_width="UNKNOWN_DATA_0x1401" android:layout_height="UNKNOWN_DATA_0x1401" android:src="@drawable/ic_action_heart" />
+                <TextView android:textSize="18sp" android:textColor="0x1060016" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_width="UNKNOWN_DATA_0x1e01" android:layout_height="UNKNOWN_DATA_0x1e01" android:layout_marginLeft="10dp" android:text="@string/eighty_seven" />
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

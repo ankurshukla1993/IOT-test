@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="daily">
+        <item quantity="one">יומי</item>
+        <item quantity="other">כל %d ימים</item>
+    </plurals>
+    <plurals name="endByCount">
+        <item quantity="one">; פעם אחת</item>
+        <item quantity="other">; %d פעמים</item>
+    </plurals>
+    <plurals name="recurrence_end_count">
+        <item quantity="one">עבור אירוע %d</item>
+        <item quantity="other">עבור %d אירועים</item>
+    </plurals>
+    <plurals name="recurrence_interval_daily">
+        <item quantity="one">כל יום %d</item>
+        <item quantity="other">כל %d ימים</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <item quantity="one">כל חודש %d</item>
+        <item quantity="other">כל %d חודשים</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <item quantity="one">כל שבוע %d</item>
+        <item quantity="other">כל %d שבועות</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <item quantity="one">כל שנה %d</item>
+        <item quantity="other">כל %d שנים</item>
+    </plurals>
+    <plurals name="weekly">
+        <item quantity="one">שבועי ביום %2$s</item>
+        <item quantity="other">כל %1$d שבועות ביום %2$s</item>
+    </plurals>
+</resources>

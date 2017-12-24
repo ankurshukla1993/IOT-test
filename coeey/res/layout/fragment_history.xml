@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:tag="layout/fragment_history_0" android:layout_width="match_parent" android:layout_height="match_parent">
+    <android.support.design.widget.TabLayout android:id="@id/tabs" android:tag="binding_1" android:background="@color/colorPrimaryDark" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3201" android:layout_scrollFlags="5" android:tabGravity="0" android:tabMaxWidth="0dp" android:tabMode="1" android:tabSelectedTextColor="@color/white" android:tabTextColor="#77ffffff" />
+    <android.support.v4.view.ViewPager android:id="@r$id/history_view_pager" android:tag="binding_2" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_behavior="@string/appbar_scrolling_view_behavior" />
+</LinearLayout>

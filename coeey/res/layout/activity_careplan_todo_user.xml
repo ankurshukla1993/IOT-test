@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@id/rel_careplan_list" android:layout_width="match_parent" android:layout_height="match_parent">
+    <android.support.v7.widget.Toolbar android:id="@id/toolbar" android:background="@color/colorAccent" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f040006" android:minHeight="?attr/actionBarSize" android:layout_collapseMode="1" android:theme="@style/ToolBarStyle" />
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <include layout="@layout/error_layout_user" />
+        <TextView android:textSize="18sp" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/txt_no_action_items" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" style="@style/TextAppearance.AppCompat.Subhead" />
+        <android.support.v7.widget.RecyclerView android:id="@id/rev_action_items" android:layout_width="match_parent" android:layout_height="match_parent" />
+        <ProgressBar android:id="@id/pb_careplan_list" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <menu name="main">res/menu/main.xml</menu>
+    <menu name="main_cal">res/menu/main_cal.xml</menu>
+    <menu name="menu_activity_main">res/menu/menu_activity_main.xml</menu>
+    <menu name="menu_activity_main">res/menu-v22/menu_activity_main.xml</menu>
+    <menu name="menu_b">res/menu/menu_b.xml</menu>
+    <menu name="menu_caretaker_calendar">res/menu/menu_caretaker_calendar.xml</menu>
+    <menu name="menu_change_pwd">res/menu/menu_change_pwd.xml</menu>
+    <menu name="menu_devices">res/menu/menu_devices.xml</menu>
+    <menu name="menu_fragment_careplan_dashboard">res/menu/menu_fragment_careplan_dashboard.xml</menu>
+    <menu name="menu_glucose">res/menu/menu_glucose.xml</menu>
+    <menu name="menu_input_dialog">res/menu/menu_input_dialog.xml</menu>
+    <menu name="menu_main">res/menu/menu_main.xml</menu>
+    <menu name="menu_material_maya">res/menu/menu_material_maya.xml</menu>
+    <menu name="menu_notes_save">res/menu/menu_notes_save.xml</menu>
+    <menu name="menu_save">res/menu/menu_save.xml</menu>
+    <menu name="menu_vital_list">res/menu/menu_vital_list.xml</menu>
+    <menu name="menu_vitals_dialog_save">res/menu/menu_vitals_dialog_save.xml</menu>
+</resources>

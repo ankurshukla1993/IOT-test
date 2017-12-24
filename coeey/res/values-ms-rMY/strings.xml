@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="acessibility_recurrence_choose_end_date_description">tukar tarikh akhir</string>
+    <string name="cancel">Batal</string>
+    <string name="day_picker_description">Grid hari bulanan</string>
+    <string name="deleted_key">%1$s dipadamkan</string>
+    <string name="endByDate">; sehingga %s</string>
+    <string name="every_weekday">Setiap hari kerja (Isn-Jum)</string>
+    <string name="item_is_selected">%1$s dipilih</string>
+    <string name="monthly">Bulanan</string>
+    <string name="ok">OK</string>
+    <string name="recurrence_end_continously">Selamanya</string>
+    <string name="recurrence_end_count_label">Untuk sejumlah acara</string>
+    <string name="recurrence_end_date">Sehingga %s</string>
+    <string name="recurrence_end_date_label">Sehingga tarikh</string>
+    <string name="recurrence_month_pattern_by_day">hari sama setiap bln</string>
+    <string name="select_day">Pilih bulan dan hari</string>
+    <string name="select_hours">Pilih jam</string>
+    <string name="select_minutes">Pilih minit</string>
+    <string name="select_year">Pilih tahun</string>
+    <string name="year_picker_description">Senarai tahun</string>
+    <string name="yearly_plain">Tahunan</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/action_settings" android:orderInCategory="107" android:title="@r$string/settings" android:showAsAction="UNKNOWN_DATA_0x0" />
+    <item android:id="@r$id/logout" android:orderInCategory="108" android:title="@r$string/logout" android:showAsAction="UNKNOWN_DATA_0x0" />
+    <item android:id="@r$id/medical_profile" android:orderInCategory="106" android:title="Medical Profile" android:showAsAction="UNKNOWN_DATA_0x0" />
+    <item android:id="@r$id/medicine" android:orderInCategory="105" android:title="Medicine" android:showAsAction="UNKNOWN_DATA_0x0" />
+    <item android:id="@r$id/reports" android:orderInCategory="105" android:title="Medical Reports" android:showAsAction="UNKNOWN_DATA_0x0" />
+    <item android:id="@r$id/devices" android:orderInCategory="105" android:title="Devices" android:showAsAction="UNKNOWN_DATA_0x0" />
+    <item android:icon="@r$drawable/ic_note_add_white_24dp" android:id="@r$id/note_menu_item" android:orderInCategory="104" android:title="Add Note" android:iconTint="@color/white" android:iconTintMode="3" android:showAsAction="always" />
+</menu>

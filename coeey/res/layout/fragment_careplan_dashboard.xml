@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/rel_careplan_list" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@id/error_layout" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/error_msg" style="@style/TextAppearance.AppCompat.Subhead" />
+        <TextView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/error_txt_cause" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/activity_margin_quarter" android:text="@string/the_server_took_too_long_to_respond" style="@style/TextAppearance.AppCompat.Caption" />
+        <Button android:textColor="@color/colorPrimary" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/error_btn_retry" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/btn_retry" style="@style/Widget.AppCompat.Button.Borderless" />
+    </LinearLayout>
+    <TextView android:textSize="18sp" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/txt_no_action_items" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/activity_margin_quarter" android:text="@string/no_action_items" android:layout_centerInParent="true" style="@style/TextAppearance.AppCompat.Subhead" />
+    <android.support.v7.widget.RecyclerView android:id="@id/rev_action_items" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <ProgressBar android:id="@id/pb_careplan_list" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+</RelativeLayout>

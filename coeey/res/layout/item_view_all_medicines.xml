@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:layout_marginBottom="16dp" android:layout_marginStart="16dp" android:layout_marginEnd="16dp"
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="20sp" android:id="@r$id/txt_view_medicine_name" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="M Cit Dt" android:fontFamily="@font/lato_bold" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp">
+        <TextView android:textSize="16sp" android:textColor="@color/appgrey" android:id="@r$id/text_view_added_on" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Added On" android:fontFamily="@font/lato" />
+        <TextView android:textSize="16sp" android:textColor="@color/appgrey" android:id="@r$id/text_view_added_date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/lato" android:layout_marginStart="16dp" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp">
+        <TextView android:textSize="16sp" android:id="@r$id/text_view_remaining" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Remaining Days " android:fontFamily="@font/lato" />
+        <TextView android:textSize="16sp" android:id="@r$id/text_view_remaining_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/lato_black" android:layout_marginStart="8dp" />
+        <TextView android:textSize="16sp" android:id="@r$id/text_view_days_taken" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Days Taken" android:fontFamily="@font/lato" android:layout_marginStart="28dp" />
+        <TextView android:textSize="16sp" android:id="@r$id/text_view_days_taken_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/lato_black" android:layout_marginStart="8dp" />
+    </LinearLayout>
+    <TextView android:textSize="13sp" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@r$id/text_view_timings" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text="Timings" android:fontFamily="@font/lato_bold" />
+    <com.nex3z.flowlayout.FlowLayout android:orientation="horizontal" android:id="@r$id/timings_flow_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:flChildSpacing="8dp" android:flRowSpacing="8dp" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp">
+        <TextView android:textSize="14sp" android:id="@r$id/txt_view_notes" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8dp" android:text="Note :" android:fontFamily="@r$font/vollkorn_bold" />
+        <TextView android:textSize="12sp" android:id="@r$id/text_view_note_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/vollkorn" android:layout_marginStart="8dp" />
+    </LinearLayout>
+</LinearLayout>

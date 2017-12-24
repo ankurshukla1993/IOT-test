@@ -1,0 +1,46 @@
+package com.ihealth.communication.control;
+
+public class Bg5Profile {
+    public static final String ACTION_BATTERY_BG = "action_battery_bg";
+    public static final String ACTION_DELETE_HISTORICAL_DATA = "action_delete_historical_data";
+    public static final String ACTION_ERROR_BG = "action_measure_error";
+    public static final String ACTION_GET_BLOOD = "action_measure_get_blood";
+    public static final String ACTION_GET_BOTTLEID = "action_get_bottleid";
+    public static final String ACTION_GET_CODEINFO = "action_get_codeinfo";
+    public static final String ACTION_GET_TIME = "action_get_time";
+    public static final String ACTION_HISTORICAL_DATA_BG = "action_historicaldata_bg";
+    public static final String ACTION_HISTORICAL_NUM_BG = "action_historicalnum_bg";
+    public static final String ACTION_KEEP_LINK = "action_keep_link";
+    public static final String ACTION_ONLINE_RESULT_BG = "action_value_bg";
+    public static final String ACTION_SET_BOTTLE_ID_SUCCESS = "action_setbottleid_success";
+    public static final String ACTION_SET_BOTTLE_MESSAGE_SUCCESS = "action_set_bottle_message_success";
+    public static final String ACTION_SET_TIME = "action_set_time";
+    public static final String ACTION_SET_UNIT = "action_set_unit";
+    public static final String ACTION_START_MEASURE = "action_start_measure";
+    public static final String ACTION_START_MODE = "action_start_mode";
+    public static final String ACTION_STRIP_IN = "action_measure_strip_in";
+    public static final String ACTION_STRIP_OUT = "action_measure_strip_out";
+    public static final String BATTERY_BG = "battery";
+    public static final String CODESTRIPANALYSIS_BOTTLEID = "bottleid";
+    public static final String CODESTRIPANALYSIS_DUEDATE = "duedate";
+    public static final String CODESTRIPANALYSIS_STRIPNUM = "stripnum";
+    public static final String DATA_ID = "dataID";
+    public static final String DELETE_HISTORICAL_DATA = "delete_historical_data";
+    public static final String ERROR_DESCRIPTION_BG = "description";
+    public static final String ERROR_NUM_BG = "error_num";
+    public static final String GET_BOTTLEID = "bottleid";
+    public static final String GET_EXPIRECTIME = "expiretime";
+    public static final String GET_TIME = "get_time";
+    public static final String GET_TIMEZONE = "get_timezone";
+    public static final String GET_USENUM = "usenum";
+    public static final String HISTORICAL_DATA_BG = "his_data_bg";
+    public static final String HISTORICAL_NUM_BG = "count";
+    public static final String KEEP_LINK = "keep_link";
+    public static final String MEASUREMENT_DATE_BG = "measure_date_bg";
+    public static final String ONLINE_RESULT_BG = "result";
+    public static final String SET_BOTTLE_MESSAGE = "set_bottle_message";
+    public static final String SET_TIME = "set_time";
+    public static final String SET_UNIT = "set_unit";
+    public static final String START_MEASURE = "start_measure";
+    public static final String START_MODE_EXTRA = "start_mode";
+}

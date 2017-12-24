@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:tag="layout/fragment_graph_0" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:paddingTop="20dp" android:paddingBottom="20dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <android.support.v7.widget.CardView android:id="@r$id/bloodPressureGraphCard" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="20sp" android:layout_marginTop="30sp" android:layout_marginRight="20sp" android:minHeight="110sp" android:cardBackgroundColor="@color/white" android:cardCornerRadius="5dp" android:cardElevation="10dp">
+            <LinearLayout android:orientation="vertical" android:padding="20dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="14sp" android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/blood_pressure" />
+                    <Spinner android:entries="@array/time_duration_strings" android:id="@r$id/bp_time_spinner" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-4sp" android:layout_marginRight="-5sp" android:prompt="@r$string/time_duration_selection_string" android:layout_alignParentRight="true" />
+                </RelativeLayout>
+                <com.github.mikephil.charting.charts.LineChart android:id="@r$id/bloodPressureGraph" android:visibility="visible" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x9602" android:layout_marginTop="10sp" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView android:id="@r$id/bloodGlucseGraphCard" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="20sp" android:layout_marginTop="30sp" android:layout_marginRight="20sp" android:minHeight="110sp" android:cardBackgroundColor="@color/white" android:cardCornerRadius="5dp" android:cardElevation="10dp">
+            <LinearLayout android:orientation="vertical" android:padding="20dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="14sp" android:tag="binding_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@r$string/blood_glucose" />
+                    <Spinner android:entries="@array/time_duration_strings" android:id="@r$id/glucose_time_spinner" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-4sp" android:layout_marginRight="-5sp" android:prompt="@r$string/time_duration_selection_string" android:layout_alignParentRight="true" />
+                </RelativeLayout>
+                <com.github.mikephil.charting.charts.LineChart android:id="@r$id/bloodGlucoseGraph" android:visibility="visible" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x9602" android:layout_marginTop="10sp" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView android:id="@r$id/weightGraphCard" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="20sp" android:layout_marginTop="30sp" android:layout_marginRight="20sp" android:layout_marginBottom="30sp" android:minHeight="110sp" android:cardBackgroundColor="@color/white" android:cardCornerRadius="5dp" android:cardElevation="10dp">
+            <LinearLayout android:orientation="vertical" android:padding="20dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="14sp" android:tag="binding_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Weight" android:textAllCaps="true" />
+                    <Spinner android:entries="@array/time_duration_strings" android:id="@r$id/weight_time_spinner" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-4sp" android:layout_marginRight="-5sp" android:prompt="@r$string/time_duration_selection_string" android:layout_alignParentRight="true" />
+                </RelativeLayout>
+                <com.github.mikephil.charting.charts.LineChart android:id="@r$id/weightGraph" android:visibility="visible" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x9602" android:layout_marginTop="10sp" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

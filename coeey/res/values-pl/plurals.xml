@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="daily">
+        <item quantity="one">Codziennie</item>
+        <item quantity="other">Co %d dni</item>
+    </plurals>
+    <plurals name="endByCount">
+        <item quantity="one">; jeden raz</item>
+        <item quantity="other">; %d razy</item>
+    </plurals>
+    <plurals name="recurrence_end_count">
+        <item quantity="one">Do %d wydarzenia</item>
+        <item quantity="other">Dla %d wystąpienia</item>
+    </plurals>
+    <plurals name="recurrence_interval_daily">
+        <item quantity="one">Co %d dzień</item>
+        <item quantity="other">Co %d dni</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <item quantity="one">Co %d miesiąc</item>
+        <item quantity="other">Co %d mies.</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <item quantity="one">Co %d tydzień</item>
+        <item quantity="other">Co %d tyg.</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <item quantity="one">Co %d rok</item>
+        <item quantity="other">Co %d lat(a)</item>
+    </plurals>
+    <plurals name="weekly">
+        <item quantity="one">Co tydzień w %2$s</item>
+        <item quantity="other">Co %1$d tyg. w %2$s</item>
+    </plurals>
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="daily">
+        <item quantity="one">പ്രതിദിനം</item>
+        <item quantity="other">ഓരോ %d ദിവസവും</item>
+    </plurals>
+    <plurals name="endByCount">
+        <item quantity="one">; ഒരു തവണ</item>
+        <item quantity="other">; %d തവണ</item>
+    </plurals>
+    <plurals name="recurrence_end_count">
+        <item quantity="one">%d ഇവന്റിന്</item>
+        <item quantity="other">%d ഇവന്റുകൾക്ക്</item>
+    </plurals>
+    <plurals name="recurrence_interval_daily">
+        <item quantity="one">ഓരോ %d ദിവസവും</item>
+        <item quantity="other">ഓരോ %d ദിവസവും</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <item quantity="one">ഓരോ %d മാസം കൂടുമ്പോഴും</item>
+        <item quantity="other">ഓരോ %d മാസം കൂടുമ്പോഴും</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <item quantity="one">ഓരോ %d ആഴ്ച കൂടുമ്പോഴും</item>
+        <item quantity="other">ഓരോ %d ആഴ്‌ച കൂടുമ്പോഴും</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <item quantity="one">ഓരോ %d വർഷം കൂടുമ്പോഴും</item>
+        <item quantity="other">ഓരോ %d വർഷം കൂടുമ്പോഴും</item>
+    </plurals>
+    <plurals name="weekly">
+        <item quantity="one">പ്രതിവാരം %2$s ദിവസം</item>
+        <item quantity="other">ഓരോ %1$d ആഴ്ച കൂടുമ്പോഴും %2$s</item>
+    </plurals>
+</resources>

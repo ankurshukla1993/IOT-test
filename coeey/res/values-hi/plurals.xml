@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="daily">
+        <item quantity="one">दैनिक</item>
+        <item quantity="other">प्रत्‍येक %d दिन</item>
+    </plurals>
+    <plurals name="endByCount">
+        <item quantity="one">; एक बार के लिए</item>
+        <item quantity="other">; %d बार के लिए</item>
+    </plurals>
+    <plurals name="recurrence_end_count">
+        <item quantity="one">%d ईवेंट के लिए</item>
+        <item quantity="other">%d ईवेंट के लिए</item>
+    </plurals>
+    <plurals name="recurrence_interval_daily">
+        <item quantity="one">प्रत्येक %d दिन में</item>
+        <item quantity="other">प्रत्येक %d दिन में</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <item quantity="one">प्रत्येक %d माह में</item>
+        <item quantity="other">प्रत्येक %d माह में</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <item quantity="one">प्रत्येक %d सप्ताह में</item>
+        <item quantity="other">प्रत्येक %d सप्ताह में</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <item quantity="one">प्रत्येक %d वर्ष में</item>
+        <item quantity="other">प्रत्येक %d वर्ष में</item>
+    </plurals>
+    <plurals name="weekly">
+        <item quantity="one">%2$s को साप्ताहिक रूप से</item>
+        <item quantity="other">हर %1$d सप्ताह में %2$s को</item>
+    </plurals>
+</resources>

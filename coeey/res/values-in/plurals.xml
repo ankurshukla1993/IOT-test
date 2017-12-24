@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="daily">
+        <item quantity="one">Harian</item>
+        <item quantity="other">Setiap %d hari</item>
+    </plurals>
+    <plurals name="endByCount">
+        <item quantity="one">; sekali saja</item>
+        <item quantity="other">; untuk %d kali</item>
+    </plurals>
+    <plurals name="recurrence_end_count">
+        <item quantity="one">Untuk %d acara</item>
+        <item quantity="other">Untuk %d acara</item>
+    </plurals>
+    <plurals name="recurrence_interval_daily">
+        <item quantity="one">%d hari sekali</item>
+        <item quantity="other">%d hari sekali</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <item quantity="one">%d bulan sekali</item>
+        <item quantity="other">%d bulan sekali</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <item quantity="one">%d minggu sekali</item>
+        <item quantity="other">%d minggu sekali</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <item quantity="one">%d tahun sekali</item>
+        <item quantity="other">%d tahun sekali</item>
+    </plurals>
+    <plurals name="weekly">
+        <item quantity="one">Mingguan setiap %2$s</item>
+        <item quantity="other">Setiap %1$d minggu hari %2$s</item>
+    </plurals>
+</resources>

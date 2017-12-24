@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="daily">
+        <item quantity="one">ዕለታዊ</item>
+        <item quantity="other">በየ%d ቀኖች</item>
+    </plurals>
+    <plurals name="endByCount">
+        <item quantity="one">፤ ለአንድ ጊዜ</item>
+        <item quantity="other">፤ ለ%d ጊዜያት</item>
+    </plurals>
+    <plurals name="recurrence_end_count">
+        <item quantity="one">ለ%d ክስተት</item>
+        <item quantity="other">ለ%d ክስተቶች</item>
+    </plurals>
+    <plurals name="recurrence_interval_daily">
+        <item quantity="one">በየ%d ቀን</item>
+        <item quantity="other">በየ%d ቀን</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <item quantity="one">በየ%d ወር</item>
+        <item quantity="other">በየ%d ወር</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <item quantity="one">በየ%d ሳምንት</item>
+        <item quantity="other">በየ%d ሳምንት</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <item quantity="one">በየ%d ዓመት</item>
+        <item quantity="other">በየ%d ዓመት</item>
+    </plurals>
+    <plurals name="weekly">
+        <item quantity="one">በየሳምንቱ %2$s ላይ</item>
+        <item quantity="other">በየ%1$d ሳምንቱ %2$s ላይ</item>
+    </plurals>
+</resources>

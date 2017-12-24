@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="?unknown_attr_ref: 101030e" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="16dp" android:cardCornerRadius="7dp" android:cardElevation="2dp" android:cardMaxElevation="2dp" android:cardUseCompatPadding="true">
+    <LinearLayout android:orientation="vertical" android:paddingLeft="16dp" android:paddingTop="8dp" android:paddingRight="16dp" android:paddingBottom="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textSize="12sp" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/vital_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:textAllCaps="true" android:fontFamily="@font/lato_black" />
+        <LinearLayout android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:id="@id/field_values_container" android:layout_width="wrap_content" android:layout_height="wrap_content" /> />
+</android.support.v7.widget.CardView>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <SwitchPreference android:title="@r$string/pref_title_notifications_vitals" android:key="notifications_new_message" android:defaultValue="true" />
+    <SwitchPreference android:title="Vital limit Notifications" android:key="notifications_new_message" android:defaultValue="true" />
+    <SwitchPreference android:title="Events Notifications" android:key="notifications_new_message" android:defaultValue="true" />
+</PreferenceScreen>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <font name="lato">res/font/lato.xml</font>
+    <font name="lato_black">res/font/lato_black.xml</font>
+    <font name="lato_bold">res/font/lato_bold.xml</font>
+    <font name="lato_light">res/font/lato_light.ttf</font>
+    <font name="lato_thin">res/font/lato_thin.ttf</font>
+    <font name="source_sans_pro_black">res/font/source_sans_pro_black.xml</font>
+    <font name="vollkorn">res/font/vollkorn.xml</font>
+    <font name="vollkorn_bold">res/font/vollkorn_bold.ttf</font>
+</resources>

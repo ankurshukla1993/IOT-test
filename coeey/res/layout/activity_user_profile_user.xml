@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/coordinator" android:layout_width="match_parent" android:layout_height="match_parent">
+    <android.support.design.widget.AppBarLayout android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" android:layout_width="match_parent" android:layout_height="wrap_content" android:baselineAligned="false">
+        <android.support.design.widget.CollapsingToolbarLayout android:id="@id/collapsing_toolbar" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent" android:contentScrim="?attr/colorPrimary" android:expandedTitleMarginEnd="64dp" android:expandedTitleMarginStart="48dp" android:layout_scrollFlags="3">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <android.support.v7.widget.Toolbar android:id="@id/toolbar" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="?attr/actionBarSize" android:layout_scrollFlags="5" android:theme="@style/ToolBarIconStyle" android:titleTextColor="@color/white" />
+                <RelativeLayout android:id="@id/linear_profile" android:background="0x106000b" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <ImageView android:id="@id/profilePic" android:layout_width="UNKNOWN_DATA_0x3c01" android:layout_height="UNKNOWN_DATA_0x3c01" android:layout_margin="14dp" android:src="@drawable/woman" android:scaleType="fitCenter" android:layout_alignParentStart="true" />
+                    <TextView android:textSize="16sp" android:textColor="0x106000c" android:id="@id/txt_view_room_number" android:layout_width="UNKNOWN_DATA_0x3c01" android:layout_height="UNKNOWN_DATA_0x1e01" android:layout_marginLeft="14dp" android:layout_below="@id/profilePic" />
+                    <LinearLayout android:orientation="vertical" android:id="@id/linear_profile_details" android:paddingBottom="5dp" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="8dp" android:layout_toEndOf="@id/profilePic">
+                        <TextView android:textSize="@dimen/profile_item_profile_name" android:textStyle="bold" android:textColor="@color/black" android:id="@id/txt_patient_name" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                            <ImageView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_width="UNKNOWN_DATA_0x1401" android:layout_height="UNKNOWN_DATA_0x1401" android:layout_marginLeft="5dp" android:src="@drawable/action_age" />
+                            <TextView android:textSize="15sp" android:textColor="@color/black" android:id="@id/txt_patient_age" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5dp" />
+                            <ImageView android:id="@id/imv_gender" android:layout_width="UNKNOWN_DATA_0x1401" android:layout_height="UNKNOWN_DATA_0x1401" android:layout_marginLeft="15dp" android:layout_marginTop="5dp" android:src="@drawable/ic_action_female" />
+                        </LinearLayout>
+                        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                            <ImageView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/imv_call_icon" android:layout_width="UNKNOWN_DATA_0x1401" android:layout_height="UNKNOWN_DATA_0x1401" android:layout_marginLeft="5dp" android:src="@drawable/ic_action_call" />
+                            <TextView android:textSize="15sp" android:textColor="@color/black" android:autoLink="phone|all" android:id="@id/txt_patient_mob" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5dp" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </RelativeLayout>
+            </LinearLayout>
+        </android.support.design.widget.CollapsingToolbarLayout>
+        <android.support.design.widget.TabLayout android:id="@id/tabs" android:layout_width="match_parent" android:layout_height="wrap_content" android:tabGravity="0" android:tabIndicatorColor="0x106000b" android:tabMode="1" />
+    </android.support.design.widget.AppBarLayout>
+    <android.support.v4.view.ViewPager android:id="@id/viewpager" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_behavior="@string/appbar_scrolling_view_behavior" />
+</android.support.design.widget.CoordinatorLayout>

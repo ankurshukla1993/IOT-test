@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.cooey.common.views.TimelineItemView n1:layout_width="fill_parent" n1:layout_height="wrap_content"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <android.support.v7.widget.CardView n1:layout_width="fill_parent" n1:layout_height="wrap_content" n2:cardCornerRadius="8.0dip" n2:cardUseCompatPadding="true" n2:elevation="3.0dip" xmlns:n2="http://schemas.android.com/apk/res-auto">
+        <RelativeLayout n1:padding="20.0dip" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+            <TextView n1:textSize="16.0sp" n1:id="@id/activity_title" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="EVENT" n1:fontFamily="@font/lato_black" />
+            <TextView n1:textSize="16.0dip" n1:id="@id/event_text" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="16.0dip" n1:layout_below="@id/activity_title" n1:fontFamily="@font/vollkorn" />
+            <Button n1:textSize="16.0dip" n1:textColor="#ff2196f3" n1:id="@id/text_reschedule" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="14.0dip" n1:text="Reschedule" n1:layout_below="@id/time" n1:fontFamily="@font/lato" style="?android:borderlessButtonStyle" />
+            <TextView n1:textSize="12.0sp" n1:textColor="#ff999999" n1:id="@id/time" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="12.0dip" n1:layout_below="@id/event_text" n1:fontFamily="lato" />
+        </RelativeLayout>
+        <FrameLayout n1:background="#ffff4081" n1:layout_width="5.0dip" n1:layout_height="fill_parent" />
+    </android.support.v7.widget.CardView>
+</com.cooey.common.views.TimelineItemView>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="daily">
+        <item quantity="one">Nsuku zonke</item>
+        <item quantity="other">Njalo ngezinsuku ezingu-%d</item>
+    </plurals>
+    <plurals name="endByCount">
+        <item quantity="one">; okwesikhathi esisodwa</item>
+        <item quantity="other">; okwezikhathi ezingu-%d</item>
+    </plurals>
+    <plurals name="recurrence_end_count">
+        <item quantity="one">Okomcimbi ongu-%d</item>
+        <item quantity="other">Okwemicimbi engu-%d</item>
+    </plurals>
+    <plurals name="recurrence_interval_daily">
+        <item quantity="one">Njalo ngosuku olungu-%d</item>
+        <item quantity="other">Njalo ngezinsuku ezingu-%d</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <item quantity="one">Njalo ngenyanga engu-%d</item>
+        <item quantity="other">Njalo ngezinyanga ezingu-%d</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <item quantity="one">Njalo ngeviki elingu-%d</item>
+        <item quantity="other">Njalo ngamaviki angu-%d</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <item quantity="one">Njalo ngonyaka ongu-%d</item>
+        <item quantity="other">Njalo ngeminyaka engu-%d</item>
+    </plurals>
+    <plurals name="weekly">
+        <item quantity="one">Njalo ngeviki nge-%2$s</item>
+        <item quantity="other">Njalo ngamaviki angu-%1$d nge-%2$s</item>
+    </plurals>
+</resources>

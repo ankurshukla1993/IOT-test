@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/colorPrimary" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2301" android:layout_marginBottom="1dp">
+    <ImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/list_item_genre_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/expandable_selector_user" android:layout_marginEnd="5dp" />
+    <TextView android:textStyle="bold" android:textColor="0x106000b" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/list_item_genre_name" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginStart="20dp" />
+</FrameLayout>

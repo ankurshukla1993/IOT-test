@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="daily">
+        <item quantity="one">Denne</item>
+        <item quantity="other">Vždy po %d dňoch</item>
+    </plurals>
+    <plurals name="endByCount">
+        <item quantity="one">, jednorazovo</item>
+        <item quantity="other">, %d-krát</item>
+    </plurals>
+    <plurals name="recurrence_end_count">
+        <item quantity="one">Pre %d udalosť</item>
+        <item quantity="other">Pre %d udalosti/-í</item>
+    </plurals>
+    <plurals name="recurrence_interval_daily">
+        <item quantity="one">Raz za %d d.</item>
+        <item quantity="other">Raz za %d d.</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <item quantity="one">Raz za %d mes.</item>
+        <item quantity="other">Raz za %d mes.</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <item quantity="one">Raz za %d týžd.</item>
+        <item quantity="other">Raz za %d týžd.</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <item quantity="one">Raz za %d r.</item>
+        <item quantity="other">Raz za %d r.</item>
+    </plurals>
+    <plurals name="weekly">
+        <item quantity="one">Každý týždeň v %2$s</item>
+        <item quantity="other">Raz za %1$d týžd. v %2$s</item>
+    </plurals>
+</resources>

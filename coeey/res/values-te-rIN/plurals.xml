@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="daily">
+        <item quantity="one">ప్రతిరోజు</item>
+        <item quantity="other">ప్రతి %d రోజులు</item>
+    </plurals>
+    <plurals name="endByCount">
+        <item quantity="one">; ఒకసారి</item>
+        <item quantity="other">; %d సార్లు</item>
+    </plurals>
+    <plurals name="recurrence_end_count">
+        <item quantity="one">%d ఈవెంట్‌కు</item>
+        <item quantity="other">%d ఈవెంట్‌లకు</item>
+    </plurals>
+    <plurals name="recurrence_interval_daily">
+        <item quantity="one">ప్రతి %d రోజు</item>
+        <item quantity="other">ప్రతి %d రోజులు</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <item quantity="one">ప్రతి %d నెల</item>
+        <item quantity="other">ప్రతి %d నెలలు</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <item quantity="one">ప్రతి %d వారం</item>
+        <item quantity="other">ప్రతి %d వారాలు</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <item quantity="one">ప్రతి %d సంవత్సరం</item>
+        <item quantity="other">ప్రతి %d సంవత్సరాలు</item>
+    </plurals>
+    <plurals name="weekly">
+        <item quantity="one">ప్రతి వారం %2$s నాడు</item>
+        <item quantity="other">ప్రతి %1$d వారాలకు %2$s నాడు</item>
+    </plurals>
+</resources>
