@@ -285,6 +285,8 @@ public class NewMainActivity extends AppCompatActivity implements View.OnClickLi
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_scan);
+        Toolbar myToolbar = (Toolbar) findViewById(R.id.my_toolbar);
+        setSupportActionBar(myToolbar);
         getWindow().addFlags(128);
         this.button = (Button) findViewById(R.id.btn_start_or_stop);
 //        setSupportActionBar((Toolbar) findViewById(R.id.toolbar));

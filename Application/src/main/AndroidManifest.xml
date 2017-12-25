@@ -36,9 +36,8 @@
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
 
     <application android:label="@string/app_name"
-        android:icon="@drawable/ic_launcher"
-        android:theme="@style/Theme.AppCompat.Light"
-
+        android:icon="@drawable/rickandmorty"
+        android:theme="@style/Theme.AppCompat.NoActionBar"
         >
         <activity android:name=".NewMainActivity"
             android:label="@string/app_name">
